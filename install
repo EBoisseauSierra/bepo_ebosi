@@ -71,6 +71,24 @@ while [[ -n $1 ]]; do
     shift
 done
 
+# Check that install can excecute
+
+if ! type xmlstarlet > /dev/null; then
+    # Test whether `xmlstarlet` is installed
+    echo "Error: `xmlstarlet` not installed."
+    exit 1
+fi
+
+for FILE in $LAYOUT_DESC_FILE $LAYOUT_REF_FILE
+do
+    if ! [ -w $FILE ]; then
+        # Test whether user has write access on config files
+        echo "Error: Permission denied on $FILE"
+        echo "Try running as root."
+        exit 1
+    fi
+done
+
 # Install layout
 
 # Add our new definition to the system
