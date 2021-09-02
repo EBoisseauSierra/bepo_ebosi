@@ -38,8 +38,9 @@ reference_new_definition(){
     # Add a reference to our new definition to the list of French ('fr') layouts
 
     xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList" --type elem -n newvariant $LAYOUT_REF_FILE
-    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant" --type elem -n name -v "$LAYOUT_NAME" $LAYOUT_REF_FILE
-    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant" --type elem -n description -v "$LAYOUT_DESC" $LAYOUT_REF_FILE
+        xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant" --type elem -n configItem $LAYOUT_REF_FILE
+    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant/configItem" --type elem -n name -v "$LAYOUT_NAME" $LAYOUT_REF_FILE
+    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant/configItem" --type elem -n description -v "$LAYOUT_DESC" $LAYOUT_REF_FILE
     xmlstarlet ed -L --rename "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant" -v variant $LAYOUT_REF_FILE
 }
 
