@@ -30,6 +30,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reference new definition via XML editing (rather than file overwriting)
 - Add `configItem` subnode to `variant`, to comply with (new) XML file structure
 
-## [0.1.0 – 0.6.0] 
+## [0.1.0 – 0.6.0]
 
 [Previous versions of the layout were not version controlled.]

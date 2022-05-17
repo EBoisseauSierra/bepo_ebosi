@@ -89,5 +89,6 @@ xkb_symbols "layout_name_placeholder" {
     key <AB08> {                                             [               g,            G,           dead_greek,                U21D4 ] }; // g G α ⇔
     key <AB09> {                                             [               h,            H,               dagger,         doubledagger ] }; // h H † ‡
     key <AB10> {                                             [               f,            F,                U2717,                U2718 ] }; // f F ✗ ✘
-    key <SPCE> {                                             [           space, nobreakspace,           underscore,                U202F ] }; // ␣ (espace insécable) _ (espace insécable fin)
+
+    key <SPCE> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [           space, nobreakspace,           underscore,                U202F ] }; // ␣ (espace insécable) _ (espace insécable fin)
 };
