@@ -13,10 +13,10 @@
         <keyMapSelect mapIndex="1">
             <modifier keys="anyShift"/>
         </keyMapSelect>
-        <keyMapSelect mapIndex="2">
+        <keyMapSelect mapIndex="3">
             <modifier keys="command"/>
         </keyMapSelect>
-        <keyMapSelect mapIndex="3">
+        <keyMapSelect mapIndex="4">
             <modifier keys="anyShift caps? command"/>
         </keyMapSelect>
     </modifierMap>
@@ -234,7 +234,7 @@
             <key code="125" output="&#x001F;"/>
             <key code="126" output="&#x001E;"/>
         </keyMap>
-        <keyMap index="2">
+        <keyMap index="3">
             <key code="0" output="æ"/>
             <key code="1" output="ù"/>
             <key code="2" output=""/>
@@ -340,7 +340,7 @@
             <key code="125" output="&#x001F;"/>
             <key code="126" output="&#x001E;"/>
         </keyMap>
-        <keyMap index="3">
+        <keyMap index="4">
             <key code="0" output="Æ"/>
             <key code="1" output="Ù"/>
             <key code="2" output="í"/>
