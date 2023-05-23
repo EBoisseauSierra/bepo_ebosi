@@ -468,7 +468,7 @@
             <key code="10" output="/"/>
             <key code="11" output="~"/>
             <key code="12" output="|"/>
-            <key code="13" output="acute"/>
+            <key code="13" output="dead_acute"/>
             <key code="14" output="&#x0026;"/>
             <key code="15" output="œ"/>
             <key code="16" output="¡"/>
@@ -668,4 +668,40 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
     </keyMapSet>
+    <actions>
+        <action id="a">
+            <when state="none" output="a" />
+            <when state="acute" output="á" />
+        </action>
+        <action id="e">
+            <when state="none" output="e" />
+            <when state="acute" output="é" />
+        </action>
+        <action id="i">
+            <when state="none" output="i" />
+            <when state="acute" output="í" />
+        </action>
+        <action id="o">
+            <when state="none" output="o" />
+            <when state="acute" output="ó" />
+        </action>
+        <action id="u">
+            <when state="none" output="u" />
+            <when state="acute" output="ú" />
+        </action>
+        <action id="w">
+            <when state="none" output="w" />
+            <when state="acute" output="ẃ" />
+        </action>
+        <action id="y">
+            <when state="none" output="y" />
+            <when state="acute" output="ý" />
+        </action>
+        <action id="dead_acute">
+            <when state="none" next="acute" />
+        </action>
+    </actions>
+    <terminators>
+        <when state="acute" output="´" />
+    </terminators>
 </keyboard>
