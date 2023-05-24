@@ -37,7 +37,7 @@
             <key code="7" output="y" />
             <key code="8" output="x" />
             <key code="9" output="." />
-            <key code="10" output="ê" />
+            <key code="50" output="ê" />
             <key code="11" output="k" />
             <key code="12" output="b" />
             <key code="13" output="é" />
@@ -77,7 +77,7 @@
             <key code="47" output="h" />
             <key code="48" output="&#x0009;" />
             <key code="49" output=" " />
-            <key code="50" output="$" />
+            <key code="10" output="$" />
             <key code="51" output="&#x0008;" />
             <key code="53" output="&#x001B;" />
             <key code="64" output="&#x0010;" />
@@ -144,7 +144,7 @@
             <key code="7" output="y" />
             <key code="8" output="x" />
             <key code="9" output="." />
-            <key code="10" output="ê" />
+            <key code="50" output="ê" />
             <key code="11" output="k" />
             <key code="12" output="b" />
             <key code="13" output="é" />
@@ -184,7 +184,7 @@
             <key code="47" output="h" />
             <key code="48" output="&#x0009;" />
             <key code="49" output=" " />
-            <key code="50" output="$" />
+            <key code="10" output="$" />
             <key code="51" output="&#x0008;" />
             <key code="53" output="&#x001B;" />
             <key code="64" output="&#x0010;" />
@@ -252,7 +252,7 @@
             <key code="7" output="Y" />
             <key code="8" output="X" />
             <key code="9" output=":" />
-            <key code="10" output="Ê" />
+            <key code="50" output="Ê" />
             <key code="11" output="K" />
             <key code="12" output="B" />
             <key code="13" output="É" />
@@ -292,7 +292,7 @@
             <key code="47" output="H" />
             <key code="48" output="&#x0009;" />
             <key code="49" output=" " />
-            <key code="50" output="#" />
+            <key code="10" output="#" />
             <key code="51" output="&#x0008;" />
             <key code="53" output="&#x001B;" />
             <key code="64" output="&#x0010;" />
@@ -358,7 +358,7 @@
             <key code="7" output="Y" />
             <key code="8" output="X" />
             <key code="9" output=":" />
-            <key code="10" output="Ê" />
+            <key code="50" output="Ê" />
             <key code="11" output="K" />
             <key code="12" output="B" />
             <key code="13" output="É" />
@@ -398,7 +398,7 @@
             <key code="47" output="H" />
             <key code="48" output="&#x0009;" />
             <key code="49" output=" " />
-            <key code="50" output="#" />
+            <key code="10" output="#" />
             <key code="51" output="&#x0008;" />
             <key code="53" output="&#x001B;" />
             <key code="64" output="&#x0010;" />
@@ -465,10 +465,10 @@
             <key code="7" output="{" />
             <key code="8" output="}" />
             <key code="9" output="…" />
-            <key code="10" output="/" />
+            <key code="50" output="/" />
             <key code="11" output="~" />
             <key code="12" output="|" />
-            <key code="13" output="dead_acute" />
+            <key code="13" action="dead_acute" />
             <key code="14" output="&#x0026;" />
             <key code="15" output="œ" />
             <key code="16" output="¡" />
@@ -505,7 +505,7 @@
             <key code="47" output="†" />
             <key code="48" output="&#x0009;" />
             <key code="49" output="_" />
-            <key code="50" output="–" />
+            <key code="10" output="–" />
             <key code="51" output="&#x0008;" />
             <key code="53" output="&#x001B;" />
             <key code="64" output="&#x0010;" />
@@ -572,7 +572,7 @@
             <key code="7" output="‘" />
             <key code="8" output="’" />
             <key code="9" output="·" />
-            <key code="10" output="➥" />
+            <key code="50" output="➥" />
             <key code="11" output="" />
             <key code="12" output="¦" />
             <key code="13" output="doubleacute" />
@@ -612,7 +612,7 @@
             <key code="47" output="‡" />
             <key code="48" output="&#x0009;" />
             <key code="49" output=" " />
-            <key code="50" output="¶" />
+            <key code="10" output="¶" />
             <key code="51" output="&#x0008;" />
             <key code="53" output="&#x001B;" />
             <key code="64" output="&#x0010;" />
