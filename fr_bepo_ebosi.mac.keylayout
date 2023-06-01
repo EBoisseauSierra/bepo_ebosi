@@ -960,29 +960,2815 @@
             <when state="breve" output="ẳ" />
             <when state="circumflex" output="ẩ" />
         </action>
+        <action id="A">
+            <when state="none" output="A" />
+            <when state="abovedot" output="Ȧ" />
+            <when state="acute" output="Á" />
+            <when state="belowdot" output="Ạ" />
+            <when state="breve" output="Ă" />
+            <when state="caron" output="Ǎ" />
+            <when state="circumflex" output="Â" />
+            <when state="currency" output="₳" />
+            <when state="diaeresis" output="Ä" />
+            <when state="doublegrave" output="Ȁ" />
+            <when state="grave" output="À" />
+            <when state="greek" output="Α" />
+            <when state="hook" output="Ả" />
+            <when state="invertedbreve" output="Ȃ" />
+            <when state="macron" output="Ā" />
+            <when state="ogonek" output="Ą" />
+            <when state="ringabove" output="Å" />
+            <when state="ringbelow" output="Ḁ" />
+            <when state="stroke" output="Ⱥ" />
+            <when state="tilde" output="Ã" />
+            <when state="abovedot_macron" output="Ǡ" />
+            <when state="acute_breve" output="Ắ" />
+            <when state="acute_circumflex" output="Ấ" />
+            <when state="acute_ringabove" output="Ǻ" />
+            <when state="belowdot_breve" output="Ặ" />
+            <when state="belowdot_circumflex" output="Ậ" />
+            <when state="breve_grave" output="Ằ" />
+            <when state="breve_hook" output="Ẳ" />
+            <when state="breve_tilde" output="Ẵ" />
+            <when state="circumflex_grave" output="Ầ" />
+            <when state="circumflex_hook" output="Ẩ" />
+            <when state="circumflex_tilde" output="Ẫ" />
+            <when state="diaeresis_macron" output="Ǟ" />
+            <when state="greek_macron" output="Ᾱ" />
+            <when state="Multi_key" next="Multi_key_A" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_A" />
+            <when state="Multi_key_U" output="Ă" />
+            <when state="Multi_key_U_combining_belowdot" output="Ặ" />
+            <when state="Multi_key_U_dead_belowdot" output="Ặ" />
+            <when state="Multi_key_U_exclam" output="Ặ" />
+            <when state="Multi_key_acute" output="Á" />
+            <when state="Multi_key_acute_asciicircum" output="Ấ" />
+            <when state="Multi_key_acute_b" output="Ắ" />
+            <when state="Multi_key_acute_dead_abovering" output="Ǻ" />
+            <when state="Multi_key_acute_dead_breve" output="Ắ" />
+            <when state="Multi_key_acute_dead_circumflex" output="Ấ" />
+            <when state="Multi_key_apostrophe" output="Á" />
+            <when state="Multi_key_apostrophe_asciicircum" output="Ấ" />
+            <when state="Multi_key_apostrophe_b" output="Ắ" />
+            <when state="Multi_key_apostrophe_dead_abovering" output="Ǻ" />
+            <when state="Multi_key_apostrophe_dead_breve" output="Ắ" />
+            <when state="Multi_key_apostrophe_dead_circumflex" output="Ấ" />
+            <when state="Multi_key_asciicircum" output="Â" />
+            <when state="Multi_key_asciicircum_combining_belowdot" output="Ậ" />
+            <when state="Multi_key_asciicircum_dead_belowdot" output="Ậ" />
+            <when state="Multi_key_asciicircum_exclam" output="Ậ" />
+            <when state="Multi_key_asciitilde" output="Ã" />
+            <when state="Multi_key_asciitilde_asciicircum" output="Ẫ" />
+            <when state="Multi_key_asciitilde_b" output="Ẵ" />
+            <when state="Multi_key_asciitilde_dead_breve" output="Ẵ" />
+            <when state="Multi_key_asciitilde_dead_circumflex" output="Ẫ" />
+            <when state="Multi_key_b" output="Ă" />
+            <when state="Multi_key_b_combining_belowdot" output="Ặ" />
+            <when state="Multi_key_b_dead_belowdot" output="Ặ" />
+            <when state="Multi_key_b_exclam" output="Ặ" />
+            <when state="Multi_key_c" output="Ǎ" />
+            <when state="Multi_key_exclam" output="Ạ" />
+            <when state="Multi_key_grave" output="À" />
+            <when state="Multi_key_grave_asciicircum" output="Ầ" />
+            <when state="Multi_key_grave_b" output="Ằ" />
+            <when state="Multi_key_grave_dead_breve" output="Ằ" />
+            <when state="Multi_key_grave_dead_circumflex" output="Ầ" />
+            <when state="Multi_key_macron" output="Ā" />
+            <when state="Multi_key_macron_dead_abovedot" output="Ǡ" />
+            <when state="Multi_key_macron_dead_diaeresis" output="Ǟ" />
+            <when state="Multi_key_macron_period" output="Ǡ" />
+            <when state="Multi_key_macron_quotedbl" output="Ǟ" />
+            <when state="Multi_key_o" output="Å" />
+            <when state="Multi_key_o_apostrophe" output="Ǻ" />
+            <when state="Multi_key_period" output="Ȧ" />
+            <when state="Multi_key_question" output="Ả" />
+            <when state="Multi_key_question_asciicircum" output="Ẩ" />
+            <when state="Multi_key_question_b" output="Ẳ" />
+            <when state="Multi_key_question_dead_breve" output="Ẳ" />
+            <when state="Multi_key_question_dead_circumflex" output="Ẩ" />
+            <when state="Multi_key_quotedbl" output="Ä" />
+            <when state="Multi_key_semicolon" output="Ą" />
+            <when state="Multi_key_underscore" output="Ā" />
+            <when state="Multi_key_underscore_dead_abovedot" output="Ǡ" />
+            <when state="Multi_key_underscore_dead_diaeresis" output="Ǟ" />
+            <when state="Multi_key_underscore_period" output="Ǡ" />
+            <when state="Multi_key_underscore_quotedbl" output="Ǟ" />
+        </action>
+        <action id="À">
+            <when state="none" output="À" />
+            <when state="breve" output="Ằ" />
+            <when state="circumflex" output="Ầ" />
+        </action>
+        <action id="Á">
+            <when state="none" output="Á" />
+            <when state="breve" output="Ắ" />
+            <when state="circumflex" output="Ấ" />
+            <when state="ringabove" output="Ǻ" />
+        </action>
+        <action id="Â">
+            <when state="none" output="Â" />
+            <when state="acute" output="Ấ" />
+            <when state="belowdot" output="Ậ" />
+            <when state="grave" output="Ầ" />
+            <when state="hook" output="Ẩ" />
+            <when state="tilde" output="Ẫ" />
+            <when state="Multi_key_acute" output="Ấ" />
+            <when state="Multi_key_apostrophe" output="Ấ" />
+            <when state="Multi_key_asciitilde" output="Ẫ" />
+            <when state="Multi_key_grave" output="Ầ" />
+            <when state="Multi_key_question" output="Ẩ" />
+        </action>
+        <action id="Ã">
+            <when state="none" output="Ã" />
+            <when state="breve" output="Ẵ" />
+            <when state="circumflex" output="Ẫ" />
+        </action>
+        <action id="Ä">
+            <when state="none" output="Ä" />
+            <when state="macron" output="Ǟ" />
+            <when state="Multi_key_macron" output="Ǟ" />
+            <when state="Multi_key_underscore" output="Ǟ" />
+        </action>
+        <action id="Å">
+            <when state="none" output="Å" />
+            <when state="acute" output="Ǻ" />
+            <when state="Multi_key_acute" output="Ǻ" />
+            <when state="Multi_key_apostrophe" output="Ǻ" />
+        </action>
+        <action id="Ā">
+            <when state="none" output="Ā" />
+            <when state="abovedot" output="Ǡ" />
+            <when state="diaeresis" output="Ǟ" />
+            <when state="greek" output="Ᾱ" />
+        </action>
+        <action id="Ă">
+            <when state="none" output="Ă" />
+            <when state="acute" output="Ắ" />
+            <when state="belowdot" output="Ặ" />
+            <when state="grave" output="Ằ" />
+            <when state="hook" output="Ẳ" />
+            <when state="tilde" output="Ẵ" />
+            <when state="Multi_key_acute" output="Ắ" />
+            <when state="Multi_key_apostrophe" output="Ắ" />
+            <when state="Multi_key_asciitilde" output="Ẵ" />
+            <when state="Multi_key_grave" output="Ằ" />
+            <when state="Multi_key_question" output="Ẳ" />
+        </action>
+        <action id="Ȧ">
+            <when state="none" output="Ȧ" />
+            <when state="macron" output="Ǡ" />
+            <when state="Multi_key_macron" output="Ǡ" />
+            <when state="Multi_key_underscore" output="Ǡ" />
+        </action>
+        <action id="Α">
+            <when state="none" output="Α" />
+            <when state="macron" output="Ᾱ" />
+            <when state="Multi_key_Greek_iota" output="ᾼ" />
+            <when state="Multi_key_Greek_iota_U0313" output="ᾈ" />
+            <when state="Multi_key_Greek_iota_U0314" output="ᾉ" />
+            <when state="Multi_key_Greek_iota_U0342_U0313" output="ᾎ" />
+            <when state="Multi_key_Greek_iota_U0342_U0314" output="ᾏ" />
+            <when state="Multi_key_Greek_iota_U0342_dead_dasia" output="ᾏ" />
+            <when state="Multi_key_Greek_iota_U0342_dead_psili" output="ᾎ" />
+            <when state="Multi_key_Greek_iota_U0342_parenleft" output="ᾏ" />
+            <when state="Multi_key_Greek_iota_U0342_parenright" output="ᾎ" />
+            <when state="Multi_key_Greek_iota_acute_U0313" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_acute_U0314" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_acute_dead_dasia" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_acute_dead_psili" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_acute_parenleft" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_acute_parenright" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_apostrophe_U0313" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_apostrophe_U0314" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_apostrophe_dead_dasia" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_apostrophe_dead_psili" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_apostrophe_parenleft" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_apostrophe_parenright" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_asciitilde_U0313" output="ᾎ" />
+            <when state="Multi_key_Greek_iota_asciitilde_U0314" output="ᾏ" />
+            <when state="Multi_key_Greek_iota_asciitilde_dead_dasia" output="ᾏ" />
+            <when state="Multi_key_Greek_iota_asciitilde_dead_psili" output="ᾎ" />
+            <when state="Multi_key_Greek_iota_asciitilde_parenleft" output="ᾏ" />
+            <when state="Multi_key_Greek_iota_asciitilde_parenright" output="ᾎ" />
+            <when state="Multi_key_Greek_iota_combining_acute_U0313" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_combining_acute_U0314" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_combining_acute_dead_dasia" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_combining_acute_dead_psili" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_combining_acute_parenleft" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_combining_acute_parenright" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_combining_grave_U0313" output="ᾊ" />
+            <when state="Multi_key_Greek_iota_combining_grave_U0314" output="ᾋ" />
+            <when state="Multi_key_Greek_iota_combining_grave_dead_dasia" output="ᾋ" />
+            <when state="Multi_key_Greek_iota_combining_grave_dead_psili" output="ᾊ" />
+            <when state="Multi_key_Greek_iota_combining_grave_parenleft" output="ᾋ" />
+            <when state="Multi_key_Greek_iota_combining_grave_parenright" output="ᾊ" />
+            <when state="Multi_key_Greek_iota_dead_acute_U0313" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_dead_acute_U0314" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_dead_acute_dead_dasia" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_dead_acute_dead_psili" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_dead_acute_parenleft" output="ᾍ" />
+            <when state="Multi_key_Greek_iota_dead_acute_parenright" output="ᾌ" />
+            <when state="Multi_key_Greek_iota_dead_dasia" output="ᾉ" />
+            <when state="Multi_key_Greek_iota_dead_grave_U0313" output="ᾊ" />
+            <when state="Multi_key_Greek_iota_dead_grave_U0314" output="ᾋ" />
+            <when state="Multi_key_Greek_iota_dead_grave_dead_dasia" output="ᾋ" />
+            <when state="Multi_key_Greek_iota_dead_grave_dead_psili" output="ᾊ" />
+            <when state="Multi_key_Greek_iota_dead_grave_parenleft" output="ᾋ" />
+            <when state="Multi_key_Greek_iota_dead_grave_parenright" output="ᾊ" />
+            <when state="Multi_key_Greek_iota_dead_psili" output="ᾈ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_U0313" output="ᾎ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_U0314" output="ᾏ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_dead_dasia" output="ᾏ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_dead_psili" output="ᾎ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_parenleft" output="ᾏ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_parenright" output="ᾎ" />
+            <when state="Multi_key_Greek_iota_grave_U0313" output="ᾊ" />
+            <when state="Multi_key_Greek_iota_grave_U0314" output="ᾋ" />
+            <when state="Multi_key_Greek_iota_grave_dead_dasia" output="ᾋ" />
+            <when state="Multi_key_Greek_iota_grave_dead_psili" output="ᾊ" />
+            <when state="Multi_key_Greek_iota_grave_parenleft" output="ᾋ" />
+            <when state="Multi_key_Greek_iota_grave_parenright" output="ᾊ" />
+            <when state="Multi_key_Greek_iota_parenleft" output="ᾉ" />
+            <when state="Multi_key_Greek_iota_parenright" output="ᾈ" />
+            <when state="Multi_key_U" output="Ᾰ" />
+            <when state="Multi_key_acute" output="Ά" />
+            <when state="Multi_key_acute_U0313" output="Ἄ" />
+            <when state="Multi_key_acute_U0314" output="Ἅ" />
+            <when state="Multi_key_acute_dead_dasia" output="Ἅ" />
+            <when state="Multi_key_acute_dead_psili" output="Ἄ" />
+            <when state="Multi_key_acute_parenleft" output="Ἅ" />
+            <when state="Multi_key_acute_parenright" output="Ἄ" />
+            <when state="Multi_key_apostrophe" output="Ά" />
+            <when state="Multi_key_apostrophe_U0313" output="Ἄ" />
+            <when state="Multi_key_apostrophe_U0314" output="Ἅ" />
+            <when state="Multi_key_apostrophe_dead_dasia" output="Ἅ" />
+            <when state="Multi_key_apostrophe_dead_psili" output="Ἄ" />
+            <when state="Multi_key_apostrophe_parenleft" output="Ἅ" />
+            <when state="Multi_key_apostrophe_parenright" output="Ἄ" />
+            <when state="Multi_key_asciitilde_U0313" output="Ἆ" />
+            <when state="Multi_key_asciitilde_U0314" output="Ἇ" />
+            <when state="Multi_key_asciitilde_dead_dasia" output="Ἇ" />
+            <when state="Multi_key_asciitilde_dead_psili" output="Ἆ" />
+            <when state="Multi_key_asciitilde_parenleft" output="Ἇ" />
+            <when state="Multi_key_asciitilde_parenright" output="Ἆ" />
+            <when state="Multi_key_b" output="Ᾰ" />
+            <when state="Multi_key_grave" output="Ὰ" />
+            <when state="Multi_key_grave_U0313" output="Ἂ" />
+            <when state="Multi_key_grave_U0314" output="Ἃ" />
+            <when state="Multi_key_grave_dead_dasia" output="Ἃ" />
+            <when state="Multi_key_grave_dead_psili" output="Ἂ" />
+            <when state="Multi_key_grave_parenleft" output="Ἃ" />
+            <when state="Multi_key_grave_parenright" output="Ἂ" />
+            <when state="Multi_key_macron" output="Ᾱ" />
+            <when state="Multi_key_parenleft" output="Ἁ" />
+            <when state="Multi_key_parenright" output="Ἀ" />
+            <when state="Multi_key_underscore" output="Ᾱ" />
+        </action>
+        <action id="Ạ">
+            <when state="none" output="Ạ" />
+            <when state="breve" output="Ặ" />
+            <when state="circumflex" output="Ậ" />
+            <when state="Multi_key_U" output="Ặ" />
+            <when state="Multi_key_asciicircum" output="Ậ" />
+            <when state="Multi_key_b" output="Ặ" />
+        </action>
+        <action id="Ả">
+            <when state="none" output="Ả" />
+            <when state="breve" output="Ẳ" />
+            <when state="circumflex" output="Ẩ" />
+        </action>
+
+        <action id="æ">
+            <when state="none" output="æ" />
+            <when state="acute" output="ǽ" />
+            <when state="macron" output="ǣ" />
+            <when state="Multi_key_acute" output="ǽ" />
+            <when state="Multi_key_apostrophe" output="ǽ" />
+            <when state="Multi_key_macron" output="ǣ" />
+            <when state="Multi_key_underscore" output="ǣ" />
+        </action>
+        <action id="Æ">
+            <when state="none" output="Æ" />
+            <when state="acute" output="Ǽ" />
+            <when state="macron" output="Ǣ" />
+            <when state="Multi_key_acute" output="Ǽ" />
+            <when state="Multi_key_apostrophe" output="Ǽ" />
+            <when state="Multi_key_macron" output="Ǣ" />
+            <when state="Multi_key_underscore" output="Ǣ" />
+        </action>
+
+        <action id="ɑ">
+            <when state="none" output="ɑ" />
+            <when state="retroflexhook" output="ᶐ" />
+        </action>
+
+        <action id="b">
+            <when state="none" output="b" />
+            <when state="abovedot" output="ḃ" />
+            <when state="belowdot" output="ḅ" />
+            <when state="currency" output="฿" />
+            <when state="greek" output="β" />
+            <when state="hook" output="ɓ" />
+            <when state="linebelow" output="ḇ" />
+            <when state="middletilde" output="ᵬ" />
+            <when state="palatalhook" output="ᶀ" />
+            <when state="stroke" output="ƀ" />
+            <when state="topbar" output="ƃ" />
+            <when state="Multi_key" next="Multi_key_b" />
+            <when state="Multi_key_acute" next="Multi_key_acute_b" />
+            <when state="Multi_key_apostrophe" next="Multi_key_apostrophe_b" />
+            <when state="Multi_key_asciitilde" next="Multi_key_asciitilde_b" />
+            <when state="Multi_key_grave" next="Multi_key_grave_b" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_b" />
+            <when state="Multi_key_question" next="Multi_key_question_b" />
+            <when state="Multi_key_exclam" output="ḅ" />
+            <when state="Multi_key_numbersign" output="♭" />
+            <when state="Multi_key_period" output="ḃ" />
+            <when state="Multi_key_slash" output="ƀ" />
+        </action>
+        <action id="B">
+            <when state="none" output="B" />
+            <when state="abovedot" output="Ḃ" />
+            <when state="belowdot" output="Ḅ" />
+            <when state="currency" output="₱" />
+            <when state="greek" output="Β" />
+            <when state="hook" output="Ɓ" />
+            <when state="linebelow" output="Ḇ" />
+            <when state="stroke" output="Ƀ" />
+            <when state="topbar" output="Ƃ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_B" />
+            <when state="Multi_key_exclam" output="Ḅ" />
+            <when state="Multi_key_period" output="Ḃ" />
+        </action>
+
+        <action id="c">
+            <when state="none" output="c" />
+            <when state="abovedot" output="ċ" />
+            <when state="acute" output="ć" />
+            <when state="caron" output="č" />
+            <when state="cedilla" output="ç" />
+            <when state="circumflex" output="ĉ" />
+            <when state="curl" output="ɕ" />
+            <when state="currency" output="¢" />
+            <when state="hook" output="ƈ" />
+            <when state="stroke" output="ȼ" />
+            <when state="acute_cedilla" output="ḉ" />
+            <when state="cedilla_currency" output="₵" />
+            <when state="Multi_key" next="Multi_key_c" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_c" />
+            <when state="Multi_key_O" output="©" />
+            <when state="Multi_key_acute" output="ć" />
+            <when state="Multi_key_acute_comma" output="ḉ" />
+            <when state="Multi_key_acute_dead_cedilla" output="ḉ" />
+            <when state="Multi_key_apostrophe" output="ć" />
+            <when state="Multi_key_apostrophe_dead_cedilla" output="ḉ" />
+            <when state="Multi_key_asciicircum" output="ĉ" />
+            <when state="Multi_key_bar" output="¢" />
+            <when state="Multi_key_c" output="č" />
+            <when state="Multi_key_comma" output="ç" />
+            <when state="Multi_key_equal" output="€" />
+            <when state="Multi_key_o" output="©" />
+            <when state="Multi_key_period" output="ċ" />
+            <when state="Multi_key_slash" output="¢" />
+        </action>
+        <action id="¢">
+            <when state="none" output="¢" />
+            <when state="cedilla" output="₵" />
+        </action>
+        <action id="ç">
+            <when state="none" output="ç" />
+            <when state="acute" output="ḉ" />
+            <when state="currency" output="₵" />
+            <when state="Multi_key_acute" output="ḉ" />
+            <when state="Multi_key_apostrophe" output="ḉ" />
+        </action>
+        <action id="ć">
+            <when state="none" output="ć" />
+            <when state="cedilla" output="ḉ" />
+        </action>
+        <action id="C">
+            <when state="none" output="C" />
+            <when state="abovedot" output="Ċ" />
+            <when state="acute" output="Ć" />
+            <when state="caron" output="Č" />
+            <when state="cedilla" output="Ç" />
+            <when state="circumflex" output="Ĉ" />
+            <when state="currency" output="₡" />
+            <when state="hook" output="Ƈ" />
+            <when state="stroke" output="Ȼ" />
+            <when state="acute_cedilla" output="Ḉ" />
+            <when state="cedilla_currency" output="₵" />
+            <when state="Multi_key" next="Multi_key_C" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_C" />
+            <when state="Multi_key_O" output="©" />
+            <when state="Multi_key_acute" output="Ć" />
+            <when state="Multi_key_acute_comma" output="Ḉ" />
+            <when state="Multi_key_acute_dead_cedilla" output="Ḉ" />
+            <when state="Multi_key_apostrophe" output="Ć" />
+            <when state="Multi_key_apostrophe_dead_cedilla" output="Ḉ" />
+            <when state="Multi_key_asciicircum" output="Ĉ" />
+            <when state="Multi_key_c" output="Č" />
+            <when state="Multi_key_comma" output="Ç" />
+            <when state="Multi_key_equal" output="€" />
+            <when state="Multi_key_o" output="©" />
+            <when state="Multi_key_period" output="Ċ" />
+            <when state="Multi_key_slash" output="₡" />
+        </action>
+        <action id="Ç">
+            <when state="none" output="Ç" />
+            <when state="acute" output="Ḉ" />
+            <when state="currency" output="₵" />
+            <when state="Multi_key_acute" output="Ḉ" />
+            <when state="Multi_key_apostrophe" output="Ḉ" />
+        </action>
+        <action id="Ć">
+            <when state="none" output="Ć" />
+            <when state="cedilla" output="Ḉ" />
+        </action>
+        <action id="₡">
+            <when state="none" output="₡" />
+            <when state="cedilla" output="₵" />
+        </action>
+
+        <action id="d">
+            <when state="none" output="d" />
+            <when state="abovedot" output="ḋ" />
+            <when state="belowdot" output="ḍ" />
+            <when state="caron" output="ď" />
+            <when state="cedilla" output="ḑ" />
+            <when state="circumflexbelow" output="ḓ" />
+            <when state="curl" output="ȡ" />
+            <when state="currency" output="₫" />
+            <when state="greek" output="δ" />
+            <when state="hook" output="ɗ" />
+            <when state="linebelow" output="ḏ" />
+            <when state="middletilde" output="ᵭ" />
+            <when state="palatalhook" output="ᶁ" />
+            <when state="stroke" output="đ" />
+            <when state="tail" output="ɖ" />
+            <when state="topbar" output="ƌ" />
+            <when state="hook_tail" output="ᶑ" />
+            <when state="Multi_key" next="Multi_key_d" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_d" />
+            <when state="Multi_key_c" output="ď" />
+            <when state="Multi_key_comma" output="ḑ" />
+            <when state="Multi_key_exclam" output="ḍ" />
+            <when state="Multi_key_minus" output="đ" />
+            <when state="Multi_key_period" output="ḋ" />
+            <when state="Multi_key_slash" output="đ" />
+        </action>
+        <action id="ɖ">
+            <when state="none" output="ɖ" />
+            <when state="hook" output="ᶑ" />
+        </action>
+        <action id="ɗ">
+            <when state="none" output="ɗ" />
+            <when state="tail" output="ᶑ" />
+        </action>
+        <action id="D">
+            <when state="none" output="D" />
+            <when state="abovedot" output="Ḋ" />
+            <when state="belowdot" output="Ḍ" />
+            <when state="caron" output="Ď" />
+            <when state="cedilla" output="Ḑ" />
+            <when state="circumflexbelow" output="Ḓ" />
+            <when state="currency" output="₯" />
+            <when state="greek" output="Δ" />
+            <when state="hook" output="Ɗ" />
+            <when state="linebelow" output="Ḏ" />
+            <when state="stroke" output="Đ" />
+            <when state="topbar" output="Ƌ" />
+            <when state="Multi_key" next="Multi_key_D" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_D" />
+            <when state="Multi_key_c" output="Ď" />
+            <when state="Multi_key_comma" output="Ḑ" />
+            <when state="Multi_key_exclam" output="Ḍ" />
+            <when state="Multi_key_minus" output="Đ" />
+            <when state="Multi_key_period" output="Ḋ" />
+            <when state="Multi_key_slash" output="Đ" />
+        </action>
+
+        <action id="ǲ">
+            <when state="none" output="ǲ" />
+            <when state="caron" output="ǅ" />
+        </action>
+        <action id="ǳ">
+            <when state="none" output="ǳ" />
+            <when state="caron" output="ǆ" />
+        </action>
+        <action id="Ǳ">
+            <when state="none" output="Ǳ" />
+            <when state="caron" output="Ǆ" />
+        </action>
+
+        <action id="ʣ">
+            <when state="none" output="ʣ" />
+            <when state="curl" output="ʥ" />
+        </action>
+
         <action id="e">
             <when state="none" output="e" />
+            <when state="abovedot" output="ė" />
             <when state="acute" output="é" />
+            <when state="belowdot" output="ẹ" />
+            <when state="breve" output="ĕ" />
+            <when state="caron" output="ě" />
+            <when state="cedilla" output="ȩ" />
+            <when state="circumflex" output="ê" />
+            <when state="circumflexbelow" output="ḙ" />
+            <when state="currency" output="€" />
+            <when state="diaeresis" output="ë" />
+            <when state="doublegrave" output="ȅ" />
+            <when state="grave" output="è" />
+            <when state="greek" output="ε" />
+            <when state="hook" output="ẻ" />
+            <when state="invertedbreve" output="ȇ" />
+            <when state="macron" output="ē" />
+            <when state="ogonek" output="ę" />
+            <when state="retroflexhook" output="ᶒ" />
+            <when state="stroke" output="ɇ" />
+            <when state="tilde" output="ẽ" />
+            <when state="tildebelow" output="ḛ" />
+            <when state="acute_circumflex" output="ế" />
+            <when state="acute_macron" output="ḗ" />
+            <when state="belowdot_circumflex" output="ệ" />
+            <when state="breve_cedilla" output="ḝ" />
+            <when state="circumflex_grave" output="ề" />
+            <when state="circumflex_hook" output="ể" />
+            <when state="circumflex_tilde" output="ễ" />
+            <when state="grave_macron" output="ḕ" />
+            <when state="Multi_key" next="Multi_key_e" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_e" />
+            <when state="Multi_key_U" output="ĕ" />
+            <when state="Multi_key_U_comma" output="ḝ" />
+            <when state="Multi_key_U_dead_cedilla" output="ḝ" />
+            <when state="Multi_key_a" output="æ" />
+            <when state="Multi_key_acute" output="é" />
+            <when state="Multi_key_acute_asciicircum" output="ế" />
+            <when state="Multi_key_acute_dead_circumflex" output="ế" />
+            <when state="Multi_key_acute_dead_macron" output="ḗ" />
+            <when state="Multi_key_acute_macron" output="ḗ" />
+            <when state="Multi_key_acute_underscore" output="ḗ" />
+            <when state="Multi_key_apostrophe" output="é" />
+            <when state="Multi_key_apostrophe_asciicircum" output="ế" />
+            <when state="Multi_key_apostrophe_dead_circumflex" output="ế" />
+            <when state="Multi_key_apostrophe_dead_macron" output="ḗ" />
+            <when state="Multi_key_apostrophe_macron" output="ḗ" />
+            <when state="Multi_key_apostrophe_underscore" output="ḗ" />
+            <when state="Multi_key_asciicircum" output="ê" />
+            <when state="Multi_key_asciicircum_combining_belowdot" output="ệ" />
+            <when state="Multi_key_asciicircum_dead_belowdot" output="ệ" />
+            <when state="Multi_key_asciicircum_exclam" output="ệ" />
+            <when state="Multi_key_asciitilde" output="ẽ" />
+            <when state="Multi_key_asciitilde_asciicircum" output="ễ" />
+            <when state="Multi_key_asciitilde_dead_circumflex" output="ễ" />
+            <when state="Multi_key_b" output="ĕ" />
+            <when state="Multi_key_b_comma" output="ḝ" />
+            <when state="Multi_key_b_dead_cedilla" output="ḝ" />
+            <when state="Multi_key_c" output="ě" />
+            <when state="Multi_key_comma" output="ȩ" />
+            <when state="Multi_key_e" output="ə" />
+            <when state="Multi_key_equal" output="€" />
+            <when state="Multi_key_exclam" output="ẹ" />
+            <when state="Multi_key_grave" output="è" />
+            <when state="Multi_key_grave_asciicircum" output="ề" />
+            <when state="Multi_key_grave_dead_circumflex" output="ề" />
+            <when state="Multi_key_grave_dead_macron" output="ḕ" />
+            <when state="Multi_key_grave_macron" output="ḕ" />
+            <when state="Multi_key_grave_underscore" output="ḕ" />
+            <when state="Multi_key_macron" output="ē" />
+            <when state="Multi_key_o" output="œ" />
+            <when state="Multi_key_period" output="ė" />
+            <when state="Multi_key_question" output="ẻ" />
+            <when state="Multi_key_question_asciicircum" output="ể" />
+            <when state="Multi_key_question_dead_circumflex" output="ể" />
+            <when state="Multi_key_quotedbl" output="ë" />
+            <when state="Multi_key_semicolon" output="ę" />
+            <when state="Multi_key_underscore" output="ē" />
         </action>
+        <action id="è">
+            <when state="none" output="è" />
+            <when state="circumflex" output="ề" />
+            <when state="macron" output="ḕ" />
+        </action>
+        <action id="é">
+            <when state="none" output="é" />
+            <when state="circumflex" output="ế" />
+            <when state="macron" output="ḗ" />
+        </action>
+        <action id="ê">
+            <when state="none" output="ê" />
+            <when state="acute" output="ế" />
+            <when state="belowdot" output="ệ" />
+            <when state="grave" output="ề" />
+            <when state="hook" output="ể" />
+            <when state="tilde" output="ễ" />
+            <when state="Multi_key_acute" output="ế" />
+            <when state="Multi_key_apostrophe" output="ế" />
+            <when state="Multi_key_asciitilde" output="ễ" />
+            <when state="Multi_key_grave" output="ề" />
+            <when state="Multi_key_question" output="ể" />
+        </action>
+        <action id="ē">
+            <when state="none" output="ē" />
+            <when state="acute" output="ḗ" />
+            <when state="grave" output="ḕ" />
+            <when state="Multi_key_acute" output="ḗ" />
+            <when state="Multi_key_apostrophe" output="ḗ" />
+            <when state="Multi_key_grave" output="ḕ" />
+        </action>
+        <action id="ĕ">
+            <when state="none" output="ĕ" />
+            <when state="cedilla" output="ḝ" />
+        </action>
+        <action id="ȩ">
+            <when state="none" output="ȩ" />
+            <when state="breve" output="ḝ" />
+            <when state="Multi_key_U" output="ḝ" />
+            <when state="Multi_key_b" output="ḝ" />
+        </action>
+        <action id="ẹ">
+            <when state="none" output="ẹ" />
+            <when state="circumflex" output="ệ" />
+            <when state="Multi_key_asciicircum" output="ệ" />
+        </action>
+        <action id="ẻ">
+            <when state="none" output="ẻ" />
+            <when state="circumflex" output="ể" />
+        </action>
+        <action id="ẽ">
+            <when state="none" output="ẽ" />
+            <when state="circumflex" output="ễ" />
+        </action>
+        <action id="E">
+            <when state="none" output="E" />
+            <when state="abovedot" output="Ė" />
+            <when state="acute" output="É" />
+            <when state="belowdot" output="Ẹ" />
+            <when state="breve" output="Ĕ" />
+            <when state="caron" output="Ě" />
+            <when state="cedilla" output="Ȩ" />
+            <when state="circumflex" output="Ê" />
+            <when state="circumflexbelow" output="Ḙ" />
+            <when state="currency" output="₠" />
+            <when state="diaeresis" output="Ë" />
+            <when state="doublegrave" output="Ȅ" />
+            <when state="grave" output="È" />
+            <when state="greek" output="Ε" />
+            <when state="hook" output="Ẻ" />
+            <when state="invertedbreve" output="Ȇ" />
+            <when state="macron" output="Ē" />
+            <when state="ogonek" output="Ę" />
+            <when state="stroke" output="Ɇ" />
+            <when state="tilde" output="Ẽ" />
+            <when state="tildebelow" output="Ḛ" />
+            <when state="acute_circumflex" output="Ế" />
+            <when state="acute_macron" output="Ḗ" />
+            <when state="belowdot_circumflex" output="Ệ" />
+            <when state="breve_cedilla" output="Ḝ" />
+            <when state="circumflex_grave" output="Ề" />
+            <when state="circumflex_hook" output="Ể" />
+            <when state="circumflex_tilde" output="Ễ" />
+            <when state="grave_macron" output="Ḕ" />
+            <when state="Multi_key" next="Multi_key_E" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_E" />
+            <when state="Multi_key_A" output="Æ" />
+            <when state="Multi_key_C" output="₠" />
+            <when state="Multi_key_O" output="Œ" />
+            <when state="Multi_key_U" output="Ĕ" />
+            <when state="Multi_key_U_comma" output="Ḝ" />
+            <when state="Multi_key_U_dead_cedilla" output="Ḝ" />
+            <when state="Multi_key_acute" output="É" />
+            <when state="Multi_key_acute_asciicircum" output="Ế" />
+            <when state="Multi_key_acute_dead_circumflex" output="Ế" />
+            <when state="Multi_key_acute_dead_macron" output="Ḗ" />
+            <when state="Multi_key_acute_macron" output="Ḗ" />
+            <when state="Multi_key_acute_underscore" output="Ḗ" />
+            <when state="Multi_key_apostrophe" output="É" />
+            <when state="Multi_key_apostrophe_asciicircum" output="Ế" />
+            <when state="Multi_key_apostrophe_dead_circumflex" output="Ế" />
+            <when state="Multi_key_apostrophe_dead_macron" output="Ḗ" />
+            <when state="Multi_key_apostrophe_macron" output="Ḗ" />
+            <when state="Multi_key_apostrophe_underscore" output="Ḗ" />
+            <when state="Multi_key_asciicircum" output="Ê" />
+            <when state="Multi_key_asciicircum_combining_belowdot" output="Ệ" />
+            <when state="Multi_key_asciicircum_dead_belowdot" output="Ệ" />
+            <when state="Multi_key_asciicircum_exclam" output="Ệ" />
+            <when state="Multi_key_asciitilde" output="Ẽ" />
+            <when state="Multi_key_asciitilde_asciicircum" output="Ễ" />
+            <when state="Multi_key_asciitilde_dead_circumflex" output="Ễ" />
+            <when state="Multi_key_b" output="Ĕ" />
+            <when state="Multi_key_b_comma" output="Ḝ" />
+            <when state="Multi_key_b_dead_cedilla" output="Ḝ" />
+            <when state="Multi_key_c" output="Ě" />
+            <when state="Multi_key_comma" output="Ȩ" />
+            <when state="Multi_key_equal" output="€" />
+            <when state="Multi_key_exclam" output="Ẹ" />
+            <when state="Multi_key_grave" output="È" />
+            <when state="Multi_key_grave_asciicircum" output="Ề" />
+            <when state="Multi_key_grave_dead_circumflex" output="Ề" />
+            <when state="Multi_key_grave_dead_macron" output="Ḕ" />
+            <when state="Multi_key_grave_macron" output="Ḕ" />
+            <when state="Multi_key_grave_underscore" output="Ḕ" />
+            <when state="Multi_key_macron" output="Ē" />
+            <when state="Multi_key_period" output="Ė" />
+            <when state="Multi_key_question" output="Ẻ" />
+            <when state="Multi_key_question_asciicircum" output="Ể" />
+            <when state="Multi_key_question_dead_circumflex" output="Ể" />
+            <when state="Multi_key_quotedbl" output="Ë" />
+            <when state="Multi_key_semicolon" output="Ę" />
+            <when state="Multi_key_underscore" output="Ē" />
+        </action>
+        <action id="È">
+            <when state="none" output="È" />
+            <when state="circumflex" output="Ề" />
+            <when state="macron" output="Ḕ" />
+        </action>
+        <action id="É">
+            <when state="none" output="É" />
+            <when state="circumflex" output="Ế" />
+            <when state="macron" output="Ḗ" />
+        </action>
+        <action id="Ê">
+            <when state="none" output="Ê" />
+            <when state="acute" output="Ế" />
+            <when state="belowdot" output="Ệ" />
+            <when state="grave" output="Ề" />
+            <when state="hook" output="Ể" />
+            <when state="tilde" output="Ễ" />
+            <when state="Multi_key_acute" output="Ế" />
+            <when state="Multi_key_apostrophe" output="Ế" />
+            <when state="Multi_key_asciitilde" output="Ễ" />
+            <when state="Multi_key_grave" output="Ề" />
+            <when state="Multi_key_question" output="Ể" />
+        </action>
+        <action id="Ē">
+            <when state="none" output="Ē" />
+            <when state="acute" output="Ḗ" />
+            <when state="grave" output="Ḕ" />
+            <when state="Multi_key_acute" output="Ḗ" />
+            <when state="Multi_key_apostrophe" output="Ḗ" />
+            <when state="Multi_key_grave" output="Ḕ" />
+        </action>
+        <action id="Ĕ">
+            <when state="none" output="Ĕ" />
+            <when state="cedilla" output="Ḝ" />
+        </action>
+        <action id="Ȩ">
+            <when state="none" output="Ȩ" />
+            <when state="breve" output="Ḝ" />
+            <when state="Multi_key_U" output="Ḝ" />
+            <when state="Multi_key_b" output="Ḝ" />
+        </action>
+        <action id="Ẹ">
+            <when state="none" output="Ẹ" />
+            <when state="circumflex" output="Ệ" />
+            <when state="Multi_key_asciicircum" output="Ệ" />
+        </action>
+        <action id="Ẻ">
+            <when state="none" output="Ẻ" />
+            <when state="circumflex" output="Ể" />
+        </action>
+        <action id="Ẽ">
+            <when state="none" output="Ẽ" />
+            <when state="circumflex" output="Ễ" />
+        </action>
+
+        <action id="ʃ">
+            <when state="none" output="ʃ" />
+            <when state="curl" output="ʆ" />
+            <when state="palatalhook" output="ᶋ" />
+            <when state="retroflexhook" output="ᶘ" />
+        </action>
+
+        <action id="ʒ">
+            <when state="none" output="ʒ" />
+            <when state="caron" output="ǯ" />
+            <when state="curl" output="ʓ" />
+            <when state="retroflexhook" output="ᶚ" />
+            <when state="tail" output="ƺ" />
+            <when state="Multi_key_c" output="ǯ" />
+        </action>
+        <action id="Ʒ">
+            <when state="none" output="Ʒ" />
+            <when state="caron" output="Ǯ" />
+            <when state="Multi_key_c" output="Ǯ" />
+        </action>
+
+        <action id="f">
+            <when state="none" output="f" />
+            <when state="abovedot" output="ḟ" />
+            <when state="currency" output="ƒ" />
+            <when state="greek" output="φ" />
+            <when state="hook" output="ƒ" />
+            <when state="middletilde" output="ᵮ" />
+            <when state="palatalhook" output="ᶂ" />
+            <when state="Multi_key" next="Multi_key_f" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_f" />
+            <when state="Multi_key_numbersign" output="♮" />
+            <when state="Multi_key_period" output="ḟ" />
+        </action>
+        <action id="F">
+            <when state="none" output="F" />
+            <when state="abovedot" output="Ḟ" />
+            <when state="currency" output="₣" />
+            <when state="greek" output="Φ" />
+            <when state="hook" output="Ƒ" />
+            <when state="Multi_key" next="Multi_key_F" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_F" />
+            <when state="Multi_key_period" output="Ḟ" />
+        </action>
+
+        <action id="g">
+            <when state="none" output="g" />
+            <when state="abovedot" output="ġ" />
+            <when state="acute" output="ǵ" />
+            <when state="breve" output="ğ" />
+            <when state="caron" output="ǧ" />
+            <when state="cedilla" output="ģ" />
+            <when state="circumflex" output="ĝ" />
+            <when state="currency" output="₲" />
+            <when state="greek" output="γ" />
+            <when state="hook" output="ɠ" />
+            <when state="macron" output="ḡ" />
+            <when state="palatalhook" output="ᶃ" />
+            <when state="stroke" output="ǥ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_g" />
+            <when state="Multi_key_U" output="ğ" />
+            <when state="Multi_key_acute" output="ǵ" />
+            <when state="Multi_key_apostrophe" output="ǵ" />
+            <when state="Multi_key_asciicircum" output="ĝ" />
+            <when state="Multi_key_b" output="ğ" />
+            <when state="Multi_key_c" output="ǧ" />
+            <when state="Multi_key_comma" output="ģ" />
+            <when state="Multi_key_macron" output="ḡ" />
+            <when state="Multi_key_n" output="ŋ" />
+            <when state="Multi_key_period" output="ġ" />
+            <when state="Multi_key_slash" output="ǥ" />
+            <when state="Multi_key_underscore" output="ḡ" />
+        </action>
+        <action id="G">
+            <when state="none" output="G" />
+            <when state="abovedot" output="Ġ" />
+            <when state="acute" output="Ǵ" />
+            <when state="breve" output="Ğ" />
+            <when state="caron" output="Ǧ" />
+            <when state="cedilla" output="Ģ" />
+            <when state="circumflex" output="Ĝ" />
+            <when state="currency" output="₲" />
+            <when state="greek" output="Γ" />
+            <when state="hook" output="Ɠ" />
+            <when state="macron" output="Ḡ" />
+            <when state="stroke" output="Ǥ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_G" />
+            <when state="Multi_key_N" output="Ŋ" />
+            <when state="Multi_key_U" output="Ğ" />
+            <when state="Multi_key_acute" output="Ǵ" />
+            <when state="Multi_key_apostrophe" output="Ǵ" />
+            <when state="Multi_key_asciicircum" output="Ĝ" />
+            <when state="Multi_key_b" output="Ğ" />
+            <when state="Multi_key_c" output="Ǧ" />
+            <when state="Multi_key_comma" output="Ģ" />
+            <when state="Multi_key_macron" output="Ḡ" />
+            <when state="Multi_key_period" output="Ġ" />
+            <when state="Multi_key_slash" output="Ǥ" />
+            <when state="Multi_key_underscore" output="Ḡ" />
+        </action>
+        <action id="h">
+            <when state="none" output="h" />
+            <when state="abovedot" output="ḣ" />
+            <when state="belowdot" output="ḥ" />
+            <when state="brevebelow" output="ḫ" />
+            <when state="caron" output="ȟ" />
+            <when state="cedilla" output="ḩ" />
+            <when state="circumflex" output="ĥ" />
+            <when state="currency" output="₴" />
+            <when state="diaeresis" output="ḧ" />
+            <when state="greek" output="η" />
+            <when state="hook" output="ɦ" />
+            <when state="linebelow" output="ẖ" />
+            <when state="stroke" output="ħ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_h" />
+            <when state="Multi_key_asciicircum" output="ĥ" />
+            <when state="Multi_key_asciicircum_underscore" output="ʰ" />
+            <when state="Multi_key_c" output="ȟ" />
+            <when state="Multi_key_comma" output="ḩ" />
+            <when state="Multi_key_d" output="ð" />
+            <when state="Multi_key_exclam" output="ḥ" />
+            <when state="Multi_key_period" output="ḣ" />
+            <when state="Multi_key_quotedbl" output="ḧ" />
+            <when state="Multi_key_slash" output="ħ" />
+            <when state="Multi_key_t" output="þ" />
+        </action>
+        <action id="H">
+            <when state="none" output="H" />
+            <when state="abovedot" output="Ḣ" />
+            <when state="belowdot" output="Ḥ" />
+            <when state="brevebelow" output="Ḫ" />
+            <when state="caron" output="Ȟ" />
+            <when state="cedilla" output="Ḩ" />
+            <when state="circumflex" output="Ĥ" />
+            <when state="currency" output="₴" />
+            <when state="diaeresis" output="Ḧ" />
+            <when state="greek" output="Η" />
+            <when state="stroke" output="Ħ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_H" />
+            <when state="Multi_key_D" output="Ð" />
+            <when state="Multi_key_T" output="Þ" />
+            <when state="Multi_key_asciicircum" output="Ĥ" />
+            <when state="Multi_key_c" output="Ȟ" />
+            <when state="Multi_key_comma" output="Ḩ" />
+            <when state="Multi_key_exclam" output="Ḥ" />
+            <when state="Multi_key_period" output="Ḣ" />
+            <when state="Multi_key_quotedbl" output="Ḧ" />
+            <when state="Multi_key_slash" output="Ħ" />
+        </action>
+
         <action id="i">
             <when state="none" output="i" />
+            <when state="abovedot" output="ı" />
             <when state="acute" output="í" />
+            <when state="belowdot" output="ị" />
+            <when state="breve" output="ĭ" />
+            <when state="caron" output="ǐ" />
+            <when state="circumflex" output="î" />
+            <when state="currency" output="﷼" />
+            <when state="diaeresis" output="ï" />
+            <when state="doublegrave" output="ȉ" />
+            <when state="grave" output="ì" />
+            <when state="greek" output="ι" />
+            <when state="hook" output="ỉ" />
+            <when state="invertedbreve" output="ȋ" />
+            <when state="macron" output="ī" />
+            <when state="ogonek" output="į" />
+            <when state="retroflexhook" output="ᶖ" />
+            <when state="stroke" output="ɨ" />
+            <when state="tilde" output="ĩ" />
+            <when state="tildebelow" output="ḭ" />
+            <when state="acute_diaeresis" output="ḯ" />
+            <when state="greek_macron" output="ῑ" />
+            <when state="Multi_key" next="Multi_key_i" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_i" />
+            <when state="Multi_key_U" output="ĭ" />
+            <when state="Multi_key_acute" output="í" />
+            <when state="Multi_key_acute_dead_diaeresis" output="ḯ" />
+            <when state="Multi_key_acute_quotedbl" output="ḯ" />
+            <when state="Multi_key_apostrophe" output="í" />
+            <when state="Multi_key_apostrophe_dead_diaeresis" output="ḯ" />
+            <when state="Multi_key_apostrophe_quotedbl" output="ḯ" />
+            <when state="Multi_key_asciicircum" output="î" />
+            <when state="Multi_key_asciicircum_underscore" output="ⁱ" />
+            <when state="Multi_key_asciitilde" output="ĩ" />
+            <when state="Multi_key_b" output="ĭ" />
+            <when state="Multi_key_c" output="ǐ" />
+            <when state="Multi_key_exclam" output="ị" />
+            <when state="Multi_key_grave" output="ì" />
+            <when state="Multi_key_macron" output="ī" />
+            <when state="Multi_key_question" output="ỉ" />
+            <when state="Multi_key_quotedbl" output="ï" />
+            <when state="Multi_key_semicolon" output="į" />
+            <when state="Multi_key_slash" output="ɨ" />
+            <when state="Multi_key_underscore" output="ī" />
         </action>
+        <action id="í">
+            <when state="none" output="í" />
+            <when state="diaeresis" output="ḯ" />
+        </action>
+        <action id="ï">
+            <when state="none" output="ï" />
+            <when state="acute" output="ḯ" />
+            <when state="Multi_key_acute" output="ḯ" />
+            <when state="Multi_key_apostrophe" output="ḯ" />
+        </action>
+        <action id="ī">
+            <when state="none" output="ī" />
+            <when state="greek" output="ῑ" />
+        </action>
+        <action id="ι">
+            <when state="none" output="ι" />
+            <when state="macron" output="ῑ" />
+            <when state="Multi_key" next="Multi_key_Greek_iota" />
+            <when state="Multi_key_U" output="ῐ" />
+            <when state="Multi_key_acute" output="ί" />
+            <when state="Multi_key_acute_U0313" output="ἴ" />
+            <when state="Multi_key_acute_U0314" output="ἵ" />
+            <when state="Multi_key_acute_dead_dasia" output="ἵ" />
+            <when state="Multi_key_acute_dead_diaeresis" output="ΐ" />
+            <when state="Multi_key_acute_dead_psili" output="ἴ" />
+            <when state="Multi_key_acute_parenleft" output="ἵ" />
+            <when state="Multi_key_acute_parenright" output="ἴ" />
+            <when state="Multi_key_acute_quotedbl" output="ΐ" />
+            <when state="Multi_key_apostrophe" output="ί" />
+            <when state="Multi_key_apostrophe_U0313" output="ἴ" />
+            <when state="Multi_key_apostrophe_U0314" output="ἵ" />
+            <when state="Multi_key_apostrophe_dead_dasia" output="ἵ" />
+            <when state="Multi_key_apostrophe_dead_diaeresis" output="ΐ" />
+            <when state="Multi_key_apostrophe_dead_psili" output="ἴ" />
+            <when state="Multi_key_apostrophe_parenleft" output="ἵ" />
+            <when state="Multi_key_apostrophe_parenright" output="ἴ" />
+            <when state="Multi_key_apostrophe_quotedbl" output="ΐ" />
+            <when state="Multi_key_asciitilde" output="ῖ" />
+            <when state="Multi_key_asciitilde_U0313" output="ἶ" />
+            <when state="Multi_key_asciitilde_U0314" output="ἷ" />
+            <when state="Multi_key_asciitilde_dead_dasia" output="ἷ" />
+            <when state="Multi_key_asciitilde_dead_diaeresis" output="ῗ" />
+            <when state="Multi_key_asciitilde_dead_psili" output="ἶ" />
+            <when state="Multi_key_asciitilde_parenleft" output="ἷ" />
+            <when state="Multi_key_asciitilde_parenright" output="ἶ" />
+            <when state="Multi_key_asciitilde_quotedbl" output="ῗ" />
+            <when state="Multi_key_b" output="ῐ" />
+            <when state="Multi_key_grave" output="ὶ" />
+            <when state="Multi_key_grave_U0313" output="ἲ" />
+            <when state="Multi_key_grave_U0314" output="ἳ" />
+            <when state="Multi_key_grave_dead_dasia" output="ἳ" />
+            <when state="Multi_key_grave_dead_diaeresis" output="ῒ" />
+            <when state="Multi_key_grave_dead_psili" output="ἲ" />
+            <when state="Multi_key_grave_parenleft" output="ἳ" />
+            <when state="Multi_key_grave_parenright" output="ἲ" />
+            <when state="Multi_key_grave_quotedbl" output="ῒ" />
+            <when state="Multi_key_macron" output="ῑ" />
+            <when state="Multi_key_parenleft" output="ἱ" />
+            <when state="Multi_key_parenright" output="ἰ" />
+            <when state="Multi_key_quotedbl" output="ϊ" />
+            <when state="Multi_key_underscore" output="ῑ" />
+        </action>
+        <action id="I">
+            <when state="none" output="I" />
+            <when state="abovedot" output="İ" />
+            <when state="acute" output="Í" />
+            <when state="belowdot" output="Ị" />
+            <when state="breve" output="Ĭ" />
+            <when state="caron" output="Ǐ" />
+            <when state="circumflex" output="Î" />
+            <when state="currency" output="៛" />
+            <when state="diaeresis" output="Ï" />
+            <when state="doublegrave" output="Ȉ" />
+            <when state="grave" output="Ì" />
+            <when state="greek" output="Ι" />
+            <when state="hook" output="Ỉ" />
+            <when state="invertedbreve" output="Ȋ" />
+            <when state="macron" output="Ī" />
+            <when state="ogonek" output="Į" />
+            <when state="stroke" output="Ɨ" />
+            <when state="tilde" output="Ĩ" />
+            <when state="tildebelow" output="Ḭ" />
+            <when state="acute_diaeresis" output="Ḯ" />
+            <when state="greek_macron" output="Ῑ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_I" />
+            <when state="Multi_key_U" output="Ĭ" />
+            <when state="Multi_key_acute" output="Í" />
+            <when state="Multi_key_acute_dead_diaeresis" output="Ḯ" />
+            <when state="Multi_key_acute_quotedbl" output="Ḯ" />
+            <when state="Multi_key_apostrophe" output="Í" />
+            <when state="Multi_key_apostrophe_dead_diaeresis" output="Ḯ" />
+            <when state="Multi_key_apostrophe_quotedbl" output="Ḯ" />
+            <when state="Multi_key_asciicircum" output="Î" />
+            <when state="Multi_key_asciitilde" output="Ĩ" />
+            <when state="Multi_key_b" output="Ĭ" />
+            <when state="Multi_key_c" output="Ǐ" />
+            <when state="Multi_key_exclam" output="Ị" />
+            <when state="Multi_key_grave" output="Ì" />
+            <when state="Multi_key_macron" output="Ī" />
+            <when state="Multi_key_period" output="İ" />
+            <when state="Multi_key_question" output="Ỉ" />
+            <when state="Multi_key_quotedbl" output="Ï" />
+            <when state="Multi_key_semicolon" output="Į" />
+            <when state="Multi_key_slash" output="Ɨ" />
+            <when state="Multi_key_underscore" output="Ī" />
+        </action>
+        <action id="Í">
+            <when state="none" output="Í" />
+            <when state="diaeresis" output="Ḯ" />
+        </action>
+        <action id="Ï">
+            <when state="none" output="Ï" />
+            <when state="acute" output="Ḯ" />
+            <when state="Multi_key_acute" output="Ḯ" />
+            <when state="Multi_key_apostrophe" output="Ḯ" />
+        </action>
+        <action id="Ī">
+            <when state="none" output="Ī" />
+            <when state="greek" output="Ῑ" />
+        </action>
+        <action id="Ι">
+            <when state="none" output="Ι" />
+            <when state="macron" output="Ῑ" />
+            <when state="Multi_key_U" output="Ῐ" />
+            <when state="Multi_key_acute" output="Ί" />
+            <when state="Multi_key_acute_U0313" output="Ἴ" />
+            <when state="Multi_key_acute_U0314" output="Ἵ" />
+            <when state="Multi_key_acute_dead_dasia" output="Ἵ" />
+            <when state="Multi_key_acute_dead_psili" output="Ἴ" />
+            <when state="Multi_key_acute_parenleft" output="Ἵ" />
+            <when state="Multi_key_acute_parenright" output="Ἴ" />
+            <when state="Multi_key_apostrophe" output="Ί" />
+            <when state="Multi_key_apostrophe_U0313" output="Ἴ" />
+            <when state="Multi_key_apostrophe_U0314" output="Ἵ" />
+            <when state="Multi_key_apostrophe_dead_dasia" output="Ἵ" />
+            <when state="Multi_key_apostrophe_dead_psili" output="Ἴ" />
+            <when state="Multi_key_apostrophe_parenleft" output="Ἵ" />
+            <when state="Multi_key_apostrophe_parenright" output="Ἴ" />
+            <when state="Multi_key_asciitilde_U0313" output="Ἶ" />
+            <when state="Multi_key_asciitilde_U0314" output="Ἷ" />
+            <when state="Multi_key_asciitilde_dead_dasia" output="Ἷ" />
+            <when state="Multi_key_asciitilde_dead_psili" output="Ἶ" />
+            <when state="Multi_key_asciitilde_parenleft" output="Ἷ" />
+            <when state="Multi_key_asciitilde_parenright" output="Ἶ" />
+            <when state="Multi_key_b" output="Ῐ" />
+            <when state="Multi_key_grave" output="Ὶ" />
+            <when state="Multi_key_grave_U0313" output="Ἲ" />
+            <when state="Multi_key_grave_U0314" output="Ἳ" />
+            <when state="Multi_key_grave_dead_dasia" output="Ἳ" />
+            <when state="Multi_key_grave_dead_psili" output="Ἲ" />
+            <when state="Multi_key_grave_parenleft" output="Ἳ" />
+            <when state="Multi_key_grave_parenright" output="Ἲ" />
+            <when state="Multi_key_macron" output="Ῑ" />
+            <when state="Multi_key_parenleft" output="Ἱ" />
+            <when state="Multi_key_parenright" output="Ἰ" />
+            <when state="Multi_key_quotedbl" output="Ϊ" />
+            <when state="Multi_key_underscore" output="Ῑ" />
+        </action>
+
+        <action id="ɩ">
+            <when state="none" output="ɩ" />
+            <when state="stroke" output="ᵼ" />
+        </action>
+
+        <action id="j">
+            <when state="none" output="j" />
+            <when state="abovedot" output="ȷ" />
+            <when state="caron" output="ǰ" />
+            <when state="circumflex" output="ĵ" />
+            <when state="crossedtail" output="ʝ" />
+            <when state="greek" output="θ" />
+            <when state="stroke" output="ɉ" />
+            <when state="abovedot_stroke" output="ɟ" />
+            <when state="abovedot_hook_stroke" output="ʄ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_j" />
+            <when state="Multi_key_asciicircum" output="ĵ" />
+            <when state="Multi_key_asciicircum_underscore" output="ʲ" />
+            <when state="Multi_key_c" output="ǰ" />
+        </action>
+        <action id="ȷ">
+            <when state="none" output="ȷ" />
+            <when state="stroke" output="ɟ" />
+        </action>
+        <action id="ɉ">
+            <when state="none" output="ɉ" />
+            <when state="abovedot" output="ɟ" />
+        </action>
+        <action id="J">
+            <when state="none" output="J" />
+            <when state="circumflex" output="Ĵ" />
+            <when state="greek" output="Θ" />
+            <when state="stroke" output="Ɉ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_J" />
+            <when state="Multi_key_asciicircum" output="Ĵ" />
+        </action>
+
+        <action id="k">
+            <when state="none" output="k" />
+            <when state="acute" output="ḱ" />
+            <when state="belowdot" output="ḳ" />
+            <when state="caron" output="ǩ" />
+            <when state="cedilla" output="ķ" />
+            <when state="currency" output="₭" />
+            <when state="greek" output="κ" />
+            <when state="hook" output="ƙ" />
+            <when state="linebelow" output="ḵ" />
+            <when state="palatalhook" output="ᶄ" />
+            <when state="Multi_key" next="Multi_key_k" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_k" />
+            <when state="Multi_key_acute" output="ḱ" />
+            <when state="Multi_key_apostrophe" output="ḱ" />
+            <when state="Multi_key_c" output="ǩ" />
+            <when state="Multi_key_comma" output="ķ" />
+            <when state="Multi_key_exclam" output="ḳ" />
+            <when state="Multi_key_k" output="ĸ" />
+        </action>
+        <action id="K">
+            <when state="none" output="K" />
+            <when state="acute" output="Ḱ" />
+            <when state="belowdot" output="Ḳ" />
+            <when state="caron" output="Ǩ" />
+            <when state="cedilla" output="Ķ" />
+            <when state="currency" output="₭" />
+            <when state="greek" output="Κ" />
+            <when state="hook" output="Ƙ" />
+            <when state="linebelow" output="Ḵ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_K" />
+            <when state="Multi_key_acute" output="Ḱ" />
+            <when state="Multi_key_apostrophe" output="Ḱ" />
+            <when state="Multi_key_c" output="Ǩ" />
+            <when state="Multi_key_comma" output="Ķ" />
+            <when state="Multi_key_exclam" output="Ḳ" />
+        </action>
+
+        <action id="l">
+            <when state="none" output="l" />
+            <when state="abovedot" output="ŀ" />
+            <when state="acute" output="ĺ" />
+            <when state="bar" output="ƚ" />
+            <when state="belowdot" output="ḷ" />
+            <when state="belt" output="ɬ" />
+            <when state="caron" output="ľ" />
+            <when state="cedilla" output="ļ" />
+            <when state="circumflexbelow" output="ḽ" />
+            <when state="curl" output="ȴ" />
+            <when state="currency" output="£" />
+            <when state="greek" output="λ" />
+            <when state="linebelow" output="ḻ" />
+            <when state="middletilde" output="ɫ" />
+            <when state="palatalhook" output="ᶅ" />
+            <when state="retroflexhook" output="ɭ" />
+            <when state="stroke" output="ł" />
+            <when state="belowdot_macron" output="ḹ" />
+            <when state="Multi_key" next="Multi_key_l" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_l" />
+            <when state="Multi_key_acute" output="ĺ" />
+            <when state="Multi_key_apostrophe" output="ĺ" />
+            <when state="Multi_key_asciicircum_underscore" output="ˡ" />
+            <when state="Multi_key_c" output="ľ" />
+            <when state="Multi_key_comma" output="ļ" />
+            <when state="Multi_key_exclam" output="ḷ" />
+            <when state="Multi_key_macron_combining_belowdot" output="ḹ" />
+            <when state="Multi_key_macron_dead_belowdot" output="ḹ" />
+            <when state="Multi_key_macron_exclam" output="ḹ" />
+            <when state="Multi_key_slash" output="ł" />
+            <when state="Multi_key_underscore_combining_belowdot" output="ḹ" />
+            <when state="Multi_key_underscore_dead_belowdot" output="ḹ" />
+            <when state="Multi_key_underscore_exclam" output="ḹ" />
+            <when state="Multi_key_v" output="|" />
+        </action>
+        <action id="ḷ">
+            <when state="none" output="ḷ" />
+            <when state="macron" output="ḹ" />
+            <when state="Multi_key_macron" output="ḹ" />
+            <when state="Multi_key_underscore" output="ḹ" />
+        </action>
+        <action id="L">
+            <when state="none" output="L" />
+            <when state="abovedot" output="Ŀ" />
+            <when state="acute" output="Ĺ" />
+            <when state="bar" output="Ƚ" />
+            <when state="belowdot" output="Ḷ" />
+            <when state="caron" output="Ľ" />
+            <when state="cedilla" output="Ļ" />
+            <when state="circumflexbelow" output="Ḽ" />
+            <when state="currency" output="₤" />
+            <when state="greek" output="Λ" />
+            <when state="linebelow" output="Ḻ" />
+            <when state="stroke" output="Ł" />
+            <when state="belowdot_macron" output="Ḹ" />
+            <when state="Multi_key" next="Multi_key_L" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_L" />
+            <when state="Multi_key_V" output="|" />
+            <when state="Multi_key_acute" output="Ĺ" />
+            <when state="Multi_key_apostrophe" output="Ĺ" />
+            <when state="Multi_key_c" output="Ľ" />
+            <when state="Multi_key_comma" output="Ļ" />
+            <when state="Multi_key_equal" output="₤" />
+            <when state="Multi_key_exclam" output="Ḷ" />
+            <when state="Multi_key_macron_combining_belowdot" output="Ḹ" />
+            <when state="Multi_key_macron_dead_belowdot" output="Ḹ" />
+            <when state="Multi_key_macron_exclam" output="Ḹ" />
+            <when state="Multi_key_minus" output="£" />
+            <when state="Multi_key_slash" output="Ł" />
+            <when state="Multi_key_underscore_combining_belowdot" output="Ḹ" />
+            <when state="Multi_key_underscore_dead_belowdot" output="Ḹ" />
+            <when state="Multi_key_underscore_exclam" output="Ḹ" />
+        </action>
+        <action id="Ḷ">
+            <when state="none" output="Ḷ" />
+            <when state="macron" output="Ḹ" />
+            <when state="Multi_key_macron" output="Ḹ" />
+            <when state="Multi_key_underscore" output="Ḹ" />
+        </action>
+        <action id="ſ">
+            <when state="none" output="ſ" />
+            <when state="abovedot" output="ẛ" />
+            <when state="Multi_key_period" output="ẛ" />
+        </action>
+
+        <action id="m">
+            <when state="none" output="m" />
+            <when state="abovedot" output="ṁ" />
+            <when state="acute" output="ḿ" />
+            <when state="belowdot" output="ṃ" />
+            <when state="currency" output="₥" />
+            <when state="greek" output="μ" />
+            <when state="hook" output="ɱ" />
+            <when state="middletilde" output="ᵯ" />
+            <when state="palatalhook" output="ᶆ" />
+            <when state="Multi_key" next="Multi_key_m" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_m" />
+            <when state="Multi_key_S" output="℠" />
+            <when state="Multi_key_T" output="™" />
+            <when state="Multi_key_acute" output="ḿ" />
+            <when state="Multi_key_apostrophe" output="ḿ" />
+            <when state="Multi_key_exclam" output="ṃ" />
+            <when state="Multi_key_period" output="ṁ" />
+            <when state="Multi_key_s" output="℠" />
+            <when state="Multi_key_slash" output="₥" />
+            <when state="Multi_key_t" output="™" />
+        </action>
+        <action id="M">
+            <when state="none" output="M" />
+            <when state="abovedot" output="Ṁ" />
+            <when state="acute" output="Ḿ" />
+            <when state="belowdot" output="Ṃ" />
+            <when state="currency" output="ℳ" />
+            <when state="greek" output="Μ" />
+            <when state="hook" output="Ɱ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_M" />
+            <when state="Multi_key_S" output="℠" />
+            <when state="Multi_key_T" output="™" />
+            <when state="Multi_key_acute" output="Ḿ" />
+            <when state="Multi_key_apostrophe" output="Ḿ" />
+            <when state="Multi_key_exclam" output="Ṃ" />
+            <when state="Multi_key_period" output="Ṁ" />
+            <when state="Multi_key_s" output="℠" />
+            <when state="Multi_key_t" output="™" />
+        </action>
+
+        <action id="n">
+            <when state="none" output="n" />
+            <when state="abovedot" output="ṅ" />
+            <when state="acute" output="ń" />
+            <when state="belowdot" output="ṇ" />
+            <when state="caron" output="ň" />
+            <when state="cedilla" output="ņ" />
+            <when state="circumflexbelow" output="ṋ" />
+            <when state="curl" output="ȵ" />
+            <when state="currency" output="₦" />
+            <when state="grave" output="ǹ" />
+            <when state="greek" output="ν" />
+            <when state="hook" output="ɲ" />
+            <when state="linebelow" output="ṉ" />
+            <when state="longrightleg" output="ƞ" />
+            <when state="middletilde" output="ᵰ" />
+            <when state="palatalhook" output="ᶇ" />
+            <when state="retroflexhook" output="ɳ" />
+            <when state="tilde" output="ñ" />
+            <when state="Multi_key" next="Multi_key_n" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_n" />
+            <when state="Multi_key_acute" output="ń" />
+            <when state="Multi_key_apostrophe" output="ń" />
+            <when state="Multi_key_asciicircum_underscore" output="ⁿ" />
+            <when state="Multi_key_asciitilde" output="ñ" />
+            <when state="Multi_key_c" output="ň" />
+            <when state="Multi_key_comma" output="ņ" />
+            <when state="Multi_key_exclam" output="ṇ" />
+            <when state="Multi_key_grave" output="ǹ" />
+            <when state="Multi_key_period" output="ṅ" />
+        </action>
+        <action id="N">
+            <when state="none" output="N" />
+            <when state="abovedot" output="Ṅ" />
+            <when state="acute" output="Ń" />
+            <when state="belowdot" output="Ṇ" />
+            <when state="caron" output="Ň" />
+            <when state="cedilla" output="Ņ" />
+            <when state="circumflexbelow" output="Ṋ" />
+            <when state="currency" output="₦" />
+            <when state="grave" output="Ǹ" />
+            <when state="greek" output="Ν" />
+            <when state="hook" output="Ɲ" />
+            <when state="linebelow" output="Ṉ" />
+            <when state="longrightleg" output="Ƞ" />
+            <when state="tilde" output="Ñ" />
+            <when state="Multi_key" next="Multi_key_N" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_N" />
+            <when state="Multi_key_acute" output="Ń" />
+            <when state="Multi_key_apostrophe" output="Ń" />
+            <when state="Multi_key_asciitilde" output="Ñ" />
+            <when state="Multi_key_c" output="Ň" />
+            <when state="Multi_key_comma" output="Ņ" />
+            <when state="Multi_key_equal" output="₦" />
+            <when state="Multi_key_exclam" output="Ṇ" />
+            <when state="Multi_key_grave" output="Ǹ" />
+            <when state="Multi_key_period" output="Ṅ" />
+        </action>
+
         <action id="o">
             <when state="none" output="o" />
+            <when state="abovedot" output="ȯ" />
             <when state="acute" output="ó" />
+            <when state="belowdot" output="ọ" />
+            <when state="breve" output="ŏ" />
+            <when state="caron" output="ǒ" />
+            <when state="circumflex" output="ô" />
+            <when state="currency" output="௹" />
+            <when state="diaeresis" output="ö" />
+            <when state="doubleacute" output="ő" />
+            <when state="doublegrave" output="ȍ" />
+            <when state="grave" output="ò" />
+            <when state="greek" output="ο" />
+            <when state="hook" output="ỏ" />
+            <when state="horn" output="ơ" />
+            <when state="invertedbreve" output="ȏ" />
+            <when state="macron" output="ō" />
+            <when state="ogonek" output="ǫ" />
+            <when state="stroke" output="ø" />
+            <when state="tilde" output="õ" />
+            <when state="abovedot_macron" output="ȱ" />
+            <when state="acute_circumflex" output="ố" />
+            <when state="acute_horn" output="ớ" />
+            <when state="acute_macron" output="ṓ" />
+            <when state="acute_stroke" output="ǿ" />
+            <when state="acute_tilde" output="ṍ" />
+            <when state="belowdot_circumflex" output="ộ" />
+            <when state="belowdot_horn" output="ợ" />
+            <when state="circumflex_grave" output="ồ" />
+            <when state="circumflex_hook" output="ổ" />
+            <when state="circumflex_tilde" output="ỗ" />
+            <when state="diaeresis_macron" output="ȫ" />
+            <when state="diaeresis_tilde" output="ṏ" />
+            <when state="grave_horn" output="ờ" />
+            <when state="grave_macron" output="ṑ" />
+            <when state="hook_horn" output="ở" />
+            <when state="horn_tilde" output="ỡ" />
+            <when state="macron_ogonek" output="ǭ" />
+            <when state="macron_tilde" output="ȭ" />
+            <when state="Multi_key" next="Multi_key_o" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_o" />
+            <when state="Multi_key_N" output="№" />
+            <when state="Multi_key_U" output="ŏ" />
+            <when state="Multi_key_acute" output="ó" />
+            <when state="Multi_key_acute_asciicircum" output="ố" />
+            <when state="Multi_key_acute_asciitilde" output="ṍ" />
+            <when state="Multi_key_acute_combining_tilde" output="ṍ" />
+            <when state="Multi_key_acute_dead_circumflex" output="ố" />
+            <when state="Multi_key_acute_dead_horn" output="ớ" />
+            <when state="Multi_key_acute_dead_macron" output="ṓ" />
+            <when state="Multi_key_acute_dead_tilde" output="ṍ" />
+            <when state="Multi_key_acute_macron" output="ṓ" />
+            <when state="Multi_key_acute_plus" output="ớ" />
+            <when state="Multi_key_acute_slash" output="ǿ" />
+            <when state="Multi_key_acute_underscore" output="ṓ" />
+            <when state="Multi_key_apostrophe" output="ó" />
+            <when state="Multi_key_apostrophe_asciicircum" output="ố" />
+            <when state="Multi_key_apostrophe_asciitilde" output="ṍ" />
+            <when state="Multi_key_apostrophe_combining_tilde" output="ṍ" />
+            <when state="Multi_key_apostrophe_dead_circumflex" output="ố" />
+            <when state="Multi_key_apostrophe_dead_horn" output="ớ" />
+            <when state="Multi_key_apostrophe_dead_macron" output="ṓ" />
+            <when state="Multi_key_apostrophe_dead_tilde" output="ṍ" />
+            <when state="Multi_key_apostrophe_macron" output="ṓ" />
+            <when state="Multi_key_apostrophe_plus" output="ớ" />
+            <when state="Multi_key_apostrophe_slash" output="ǿ" />
+            <when state="Multi_key_apostrophe_underscore" output="ṓ" />
+            <when state="Multi_key_asciicircum" output="ô" />
+            <when state="Multi_key_asciicircum_combining_belowdot" output="ộ" />
+            <when state="Multi_key_asciicircum_dead_belowdot" output="ộ" />
+            <when state="Multi_key_asciicircum_exclam" output="ộ" />
+            <when state="Multi_key_asciicircum_underscore" output="º" />
+            <when state="Multi_key_asciitilde" output="õ" />
+            <when state="Multi_key_asciitilde_asciicircum" output="ỗ" />
+            <when state="Multi_key_asciitilde_dead_circumflex" output="ỗ" />
+            <when state="Multi_key_asciitilde_dead_horn" output="ỡ" />
+            <when state="Multi_key_asciitilde_plus" output="ỡ" />
+            <when state="Multi_key_b" output="ŏ" />
+            <when state="Multi_key_c" output="ǒ" />
+            <when state="Multi_key_equal" output="ő" />
+            <when state="Multi_key_exclam" output="ọ" />
+            <when state="Multi_key_exclam_dead_horn" output="ợ" />
+            <when state="Multi_key_exclam_plus" output="ợ" />
+            <when state="Multi_key_grave" output="ò" />
+            <when state="Multi_key_grave_asciicircum" output="ồ" />
+            <when state="Multi_key_grave_dead_circumflex" output="ồ" />
+            <when state="Multi_key_grave_dead_horn" output="ờ" />
+            <when state="Multi_key_grave_dead_macron" output="ṑ" />
+            <when state="Multi_key_grave_macron" output="ṑ" />
+            <when state="Multi_key_grave_plus" output="ờ" />
+            <when state="Multi_key_grave_underscore" output="ṑ" />
+            <when state="Multi_key_macron" output="ō" />
+            <when state="Multi_key_macron_asciitilde" output="ȭ" />
+            <when state="Multi_key_macron_combining_tilde" output="ȭ" />
+            <when state="Multi_key_macron_dead_abovedot" output="ȱ" />
+            <when state="Multi_key_macron_dead_diaeresis" output="ȫ" />
+            <when state="Multi_key_macron_dead_ogonek" output="ǭ" />
+            <when state="Multi_key_macron_dead_tilde" output="ȭ" />
+            <when state="Multi_key_macron_period" output="ȱ" />
+            <when state="Multi_key_macron_quotedbl" output="ȫ" />
+            <when state="Multi_key_macron_semicolon" output="ǭ" />
+            <when state="Multi_key_o" output="°" />
+            <when state="Multi_key_percent" output="‰" />
+            <when state="Multi_key_period" output="ȯ" />
+            <when state="Multi_key_plus" output="ơ" />
+            <when state="Multi_key_question" output="ỏ" />
+            <when state="Multi_key_question_asciicircum" output="ổ" />
+            <when state="Multi_key_question_dead_circumflex" output="ổ" />
+            <when state="Multi_key_question_dead_horn" output="ở" />
+            <when state="Multi_key_question_plus" output="ở" />
+            <when state="Multi_key_quotedbl" output="ö" />
+            <when state="Multi_key_quotedbl_asciitilde" output="ṏ" />
+            <when state="Multi_key_quotedbl_combining_tilde" output="ṏ" />
+            <when state="Multi_key_quotedbl_dead_tilde" output="ṏ" />
+            <when state="Multi_key_s" output="§" />
+            <when state="Multi_key_semicolon" output="ǫ" />
+            <when state="Multi_key_slash" output="ø" />
+            <when state="Multi_key_underscore" output="ō" />
+            <when state="Multi_key_underscore_asciitilde" output="ȭ" />
+            <when state="Multi_key_underscore_combining_tilde" output="ȭ" />
+            <when state="Multi_key_underscore_dead_abovedot" output="ȱ" />
+            <when state="Multi_key_underscore_dead_diaeresis" output="ȫ" />
+            <when state="Multi_key_underscore_dead_ogonek" output="ǭ" />
+            <when state="Multi_key_underscore_dead_tilde" output="ȭ" />
+            <when state="Multi_key_underscore_period" output="ȱ" />
+            <when state="Multi_key_underscore_quotedbl" output="ȫ" />
+            <when state="Multi_key_underscore_semicolon" output="ǭ" />
+            <when state="Multi_key_x" output="¤" />
         </action>
+        <action id="ò">
+            <when state="none" output="ò" />
+            <when state="circumflex" output="ồ" />
+            <when state="horn" output="ờ" />
+            <when state="macron" output="ṑ" />
+        </action>
+        <action id="ó">
+            <when state="none" output="ó" />
+            <when state="circumflex" output="ố" />
+            <when state="horn" output="ớ" />
+            <when state="macron" output="ṓ" />
+            <when state="stroke" output="ǿ" />
+            <when state="tilde" output="ṍ" />
+        </action>
+        <action id="ô">
+            <when state="none" output="ô" />
+            <when state="acute" output="ố" />
+            <when state="belowdot" output="ộ" />
+            <when state="grave" output="ồ" />
+            <when state="hook" output="ổ" />
+            <when state="tilde" output="ỗ" />
+            <when state="Multi_key_acute" output="ố" />
+            <when state="Multi_key_apostrophe" output="ố" />
+            <when state="Multi_key_asciitilde" output="ỗ" />
+            <when state="Multi_key_grave" output="ồ" />
+            <when state="Multi_key_question" output="ổ" />
+        </action>
+        <action id="õ">
+            <when state="none" output="õ" />
+            <when state="acute" output="ṍ" />
+            <when state="circumflex" output="ỗ" />
+            <when state="diaeresis" output="ṏ" />
+            <when state="horn" output="ỡ" />
+            <when state="macron" output="ȭ" />
+            <when state="Multi_key_acute" output="ṍ" />
+            <when state="Multi_key_apostrophe" output="ṍ" />
+            <when state="Multi_key_macron" output="ȭ" />
+            <when state="Multi_key_quotedbl" output="ṏ" />
+            <when state="Multi_key_underscore" output="ȭ" />
+        </action>
+        <action id="ö">
+            <when state="none" output="ö" />
+            <when state="macron" output="ȫ" />
+            <when state="tilde" output="ṏ" />
+            <when state="Multi_key_macron" output="ȫ" />
+            <when state="Multi_key_underscore" output="ȫ" />
+        </action>
+        <action id="ø">
+            <when state="none" output="ø" />
+            <when state="acute" output="ǿ" />
+            <when state="Multi_key_acute" output="ǿ" />
+            <when state="Multi_key_apostrophe" output="ǿ" />
+        </action>
+        <action id="ō">
+            <when state="none" output="ō" />
+            <when state="abovedot" output="ȱ" />
+            <when state="acute" output="ṓ" />
+            <when state="diaeresis" output="ȫ" />
+            <when state="grave" output="ṑ" />
+            <when state="ogonek" output="ǭ" />
+            <when state="tilde" output="ȭ" />
+            <when state="Multi_key_acute" output="ṓ" />
+            <when state="Multi_key_apostrophe" output="ṓ" />
+            <when state="Multi_key_grave" output="ṑ" />
+        </action>
+        <action id="ơ">
+            <when state="none" output="ơ" />
+            <when state="acute" output="ớ" />
+            <when state="belowdot" output="ợ" />
+            <when state="grave" output="ờ" />
+            <when state="hook" output="ở" />
+            <when state="tilde" output="ỡ" />
+            <when state="Multi_key_acute" output="ớ" />
+            <when state="Multi_key_apostrophe" output="ớ" />
+            <when state="Multi_key_asciitilde" output="ỡ" />
+            <when state="Multi_key_exclam" output="ợ" />
+            <when state="Multi_key_grave" output="ờ" />
+            <when state="Multi_key_question" output="ở" />
+        </action>
+        <action id="ǫ">
+            <when state="none" output="ǫ" />
+            <when state="macron" output="ǭ" />
+            <when state="Multi_key_macron" output="ǭ" />
+            <when state="Multi_key_underscore" output="ǭ" />
+        </action>
+        <action id="ȯ">
+            <when state="none" output="ȯ" />
+            <when state="macron" output="ȱ" />
+            <when state="Multi_key_macron" output="ȱ" />
+            <when state="Multi_key_underscore" output="ȱ" />
+        </action>
+        <action id="ọ">
+            <when state="none" output="ọ" />
+            <when state="circumflex" output="ộ" />
+            <when state="horn" output="ợ" />
+            <when state="Multi_key_asciicircum" output="ộ" />
+        </action>
+        <action id="ỏ">
+            <when state="none" output="ỏ" />
+            <when state="circumflex" output="ổ" />
+            <when state="horn" output="ở" />
+        </action>
+        <action id="O">
+            <when state="none" output="O" />
+            <when state="abovedot" output="Ȯ" />
+            <when state="acute" output="Ó" />
+            <when state="belowdot" output="Ọ" />
+            <when state="breve" output="Ŏ" />
+            <when state="caron" output="Ǒ" />
+            <when state="circumflex" output="Ô" />
+            <when state="currency" output="૱" />
+            <when state="diaeresis" output="Ö" />
+            <when state="doubleacute" output="Ő" />
+            <when state="doublegrave" output="Ȍ" />
+            <when state="grave" output="Ò" />
+            <when state="greek" output="Ο" />
+            <when state="hook" output="Ỏ" />
+            <when state="horn" output="Ơ" />
+            <when state="invertedbreve" output="Ȏ" />
+            <when state="macron" output="Ō" />
+            <when state="middletilde" output="Ɵ" />
+            <when state="ogonek" output="Ǫ" />
+            <when state="stroke" output="Ø" />
+            <when state="tilde" output="Õ" />
+            <when state="abovedot_macron" output="Ȱ" />
+            <when state="acute_circumflex" output="Ố" />
+            <when state="acute_horn" output="Ớ" />
+            <when state="acute_macron" output="Ṓ" />
+            <when state="acute_stroke" output="Ǿ" />
+            <when state="acute_tilde" output="Ṍ" />
+            <when state="belowdot_circumflex" output="Ộ" />
+            <when state="belowdot_horn" output="Ợ" />
+            <when state="circumflex_grave" output="Ồ" />
+            <when state="circumflex_hook" output="Ổ" />
+            <when state="circumflex_tilde" output="Ỗ" />
+            <when state="diaeresis_macron" output="Ȫ" />
+            <when state="diaeresis_tilde" output="Ṏ" />
+            <when state="grave_horn" output="Ờ" />
+            <when state="grave_macron" output="Ṑ" />
+            <when state="hook_horn" output="Ở" />
+            <when state="horn_tilde" output="Ỡ" />
+            <when state="macron_ogonek" output="Ǭ" />
+            <when state="macron_tilde" output="Ȭ" />
+            <when state="Multi_key" next="Multi_key_O" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_O" />
+            <when state="Multi_key_N" output="№" />
+            <when state="Multi_key_U" output="Ŏ" />
+            <when state="Multi_key_acute" output="Ó" />
+            <when state="Multi_key_acute_asciicircum" output="Ố" />
+            <when state="Multi_key_acute_asciitilde" output="Ṍ" />
+            <when state="Multi_key_acute_combining_tilde" output="Ṍ" />
+            <when state="Multi_key_acute_dead_circumflex" output="Ố" />
+            <when state="Multi_key_acute_dead_horn" output="Ớ" />
+            <when state="Multi_key_acute_dead_macron" output="Ṓ" />
+            <when state="Multi_key_acute_dead_tilde" output="Ṍ" />
+            <when state="Multi_key_acute_macron" output="Ṓ" />
+            <when state="Multi_key_acute_plus" output="Ớ" />
+            <when state="Multi_key_acute_slash" output="Ǿ" />
+            <when state="Multi_key_acute_underscore" output="Ṓ" />
+            <when state="Multi_key_apostrophe" output="Ó" />
+            <when state="Multi_key_apostrophe_asciicircum" output="Ố" />
+            <when state="Multi_key_apostrophe_asciitilde" output="Ṍ" />
+            <when state="Multi_key_apostrophe_combining_tilde" output="Ṍ" />
+            <when state="Multi_key_apostrophe_dead_circumflex" output="Ố" />
+            <when state="Multi_key_apostrophe_dead_horn" output="Ớ" />
+            <when state="Multi_key_apostrophe_dead_macron" output="Ṓ" />
+            <when state="Multi_key_apostrophe_dead_tilde" output="Ṍ" />
+            <when state="Multi_key_apostrophe_macron" output="Ṓ" />
+            <when state="Multi_key_apostrophe_plus" output="Ớ" />
+            <when state="Multi_key_apostrophe_slash" output="Ǿ" />
+            <when state="Multi_key_apostrophe_underscore" output="Ṓ" />
+            <when state="Multi_key_asciicircum" output="Ô" />
+            <when state="Multi_key_asciicircum_combining_belowdot" output="Ộ" />
+            <when state="Multi_key_asciicircum_dead_belowdot" output="Ộ" />
+            <when state="Multi_key_asciicircum_exclam" output="Ộ" />
+            <when state="Multi_key_asciitilde" output="Õ" />
+            <when state="Multi_key_asciitilde_asciicircum" output="Ỗ" />
+            <when state="Multi_key_asciitilde_dead_circumflex" output="Ỗ" />
+            <when state="Multi_key_asciitilde_dead_horn" output="Ỡ" />
+            <when state="Multi_key_asciitilde_plus" output="Ỡ" />
+            <when state="Multi_key_b" output="Ŏ" />
+            <when state="Multi_key_c" output="Ǒ" />
+            <when state="Multi_key_equal" output="Ő" />
+            <when state="Multi_key_exclam" output="Ọ" />
+            <when state="Multi_key_exclam_dead_horn" output="Ợ" />
+            <when state="Multi_key_exclam_plus" output="Ợ" />
+            <when state="Multi_key_grave" output="Ò" />
+            <when state="Multi_key_grave_asciicircum" output="Ồ" />
+            <when state="Multi_key_grave_dead_circumflex" output="Ồ" />
+            <when state="Multi_key_grave_dead_horn" output="Ờ" />
+            <when state="Multi_key_grave_dead_macron" output="Ṑ" />
+            <when state="Multi_key_grave_macron" output="Ṑ" />
+            <when state="Multi_key_grave_plus" output="Ờ" />
+            <when state="Multi_key_grave_underscore" output="Ṑ" />
+            <when state="Multi_key_macron" output="Ō" />
+            <when state="Multi_key_macron_asciitilde" output="Ȭ" />
+            <when state="Multi_key_macron_combining_tilde" output="Ȭ" />
+            <when state="Multi_key_macron_dead_abovedot" output="Ȱ" />
+            <when state="Multi_key_macron_dead_diaeresis" output="Ȫ" />
+            <when state="Multi_key_macron_dead_ogonek" output="Ǭ" />
+            <when state="Multi_key_macron_dead_tilde" output="Ȭ" />
+            <when state="Multi_key_macron_period" output="Ȱ" />
+            <when state="Multi_key_macron_quotedbl" output="Ȫ" />
+            <when state="Multi_key_macron_semicolon" output="Ǭ" />
+            <when state="Multi_key_period" output="Ȯ" />
+            <when state="Multi_key_plus" output="Ơ" />
+            <when state="Multi_key_question" output="Ỏ" />
+            <when state="Multi_key_question_asciicircum" output="Ổ" />
+            <when state="Multi_key_question_dead_circumflex" output="Ổ" />
+            <when state="Multi_key_question_dead_horn" output="Ở" />
+            <when state="Multi_key_question_plus" output="Ở" />
+            <when state="Multi_key_quotedbl" output="Ö" />
+            <when state="Multi_key_quotedbl_asciitilde" output="Ṏ" />
+            <when state="Multi_key_quotedbl_combining_tilde" output="Ṏ" />
+            <when state="Multi_key_quotedbl_dead_tilde" output="Ṏ" />
+            <when state="Multi_key_semicolon" output="Ǫ" />
+            <when state="Multi_key_slash" output="Ø" />
+            <when state="Multi_key_underscore" output="Ō" />
+            <when state="Multi_key_underscore_asciitilde" output="Ȭ" />
+            <when state="Multi_key_underscore_combining_tilde" output="Ȭ" />
+            <when state="Multi_key_underscore_dead_abovedot" output="Ȱ" />
+            <when state="Multi_key_underscore_dead_diaeresis" output="Ȫ" />
+            <when state="Multi_key_underscore_dead_ogonek" output="Ǭ" />
+            <when state="Multi_key_underscore_dead_tilde" output="Ȭ" />
+            <when state="Multi_key_underscore_period" output="Ȱ" />
+            <when state="Multi_key_underscore_quotedbl" output="Ȫ" />
+            <when state="Multi_key_underscore_semicolon" output="Ǭ" />
+        </action>
+        <action id="Ò">
+            <when state="none" output="Ò" />
+            <when state="circumflex" output="Ồ" />
+            <when state="horn" output="Ờ" />
+            <when state="macron" output="Ṑ" />
+        </action>
+        <action id="Ó">
+            <when state="none" output="Ó" />
+            <when state="circumflex" output="Ố" />
+            <when state="horn" output="Ớ" />
+            <when state="macron" output="Ṓ" />
+            <when state="stroke" output="Ǿ" />
+            <when state="tilde" output="Ṍ" />
+        </action>
+        <action id="Ô">
+            <when state="none" output="Ô" />
+            <when state="acute" output="Ố" />
+            <when state="belowdot" output="Ộ" />
+            <when state="grave" output="Ồ" />
+            <when state="hook" output="Ổ" />
+            <when state="tilde" output="Ỗ" />
+            <when state="Multi_key_acute" output="Ố" />
+            <when state="Multi_key_apostrophe" output="Ố" />
+            <when state="Multi_key_asciitilde" output="Ỗ" />
+            <when state="Multi_key_grave" output="Ồ" />
+            <when state="Multi_key_question" output="Ổ" />
+        </action>
+        <action id="Õ">
+            <when state="none" output="Õ" />
+            <when state="acute" output="Ṍ" />
+            <when state="circumflex" output="Ỗ" />
+            <when state="diaeresis" output="Ṏ" />
+            <when state="horn" output="Ỡ" />
+            <when state="macron" output="Ȭ" />
+            <when state="Multi_key_acute" output="Ṍ" />
+            <when state="Multi_key_apostrophe" output="Ṍ" />
+            <when state="Multi_key_macron" output="Ȭ" />
+            <when state="Multi_key_quotedbl" output="Ṏ" />
+            <when state="Multi_key_underscore" output="Ȭ" />
+        </action>
+        <action id="Ö">
+            <when state="none" output="Ö" />
+            <when state="macron" output="Ȫ" />
+            <when state="tilde" output="Ṏ" />
+            <when state="Multi_key_macron" output="Ȫ" />
+            <when state="Multi_key_underscore" output="Ȫ" />
+        </action>
+        <action id="Ø">
+            <when state="none" output="Ø" />
+            <when state="acute" output="Ǿ" />
+            <when state="Multi_key_acute" output="Ǿ" />
+            <when state="Multi_key_apostrophe" output="Ǿ" />
+        </action>
+        <action id="Ō">
+            <when state="none" output="Ō" />
+            <when state="abovedot" output="Ȱ" />
+            <when state="acute" output="Ṓ" />
+            <when state="diaeresis" output="Ȫ" />
+            <when state="grave" output="Ṑ" />
+            <when state="ogonek" output="Ǭ" />
+            <when state="tilde" output="Ȭ" />
+            <when state="Multi_key_acute" output="Ṓ" />
+            <when state="Multi_key_apostrophe" output="Ṓ" />
+            <when state="Multi_key_grave" output="Ṑ" />
+        </action>
+        <action id="Ơ">
+            <when state="none" output="Ơ" />
+            <when state="acute" output="Ớ" />
+            <when state="belowdot" output="Ợ" />
+            <when state="grave" output="Ờ" />
+            <when state="hook" output="Ở" />
+            <when state="tilde" output="Ỡ" />
+            <when state="Multi_key_acute" output="Ớ" />
+            <when state="Multi_key_apostrophe" output="Ớ" />
+            <when state="Multi_key_asciitilde" output="Ỡ" />
+            <when state="Multi_key_exclam" output="Ợ" />
+            <when state="Multi_key_grave" output="Ờ" />
+            <when state="Multi_key_question" output="Ở" />
+        </action>
+        <action id="Ǫ">
+            <when state="none" output="Ǫ" />
+            <when state="macron" output="Ǭ" />
+            <when state="Multi_key_macron" output="Ǭ" />
+            <when state="Multi_key_underscore" output="Ǭ" />
+        </action>
+        <action id="Ȯ">
+            <when state="none" output="Ȯ" />
+            <when state="macron" output="Ȱ" />
+            <when state="Multi_key_macron" output="Ȱ" />
+            <when state="Multi_key_underscore" output="Ȱ" />
+        </action>
+        <action id="Ọ">
+            <when state="none" output="Ọ" />
+            <when state="circumflex" output="Ộ" />
+            <when state="horn" output="Ợ" />
+            <when state="Multi_key_asciicircum" output="Ộ" />
+        </action>
+        <action id="Ỏ">
+            <when state="none" output="Ỏ" />
+            <when state="circumflex" output="Ổ" />
+            <when state="horn" output="Ở" />
+        </action>
+
+        <action id="ɛ">
+            <when state="none" output="ɛ" />
+            <when state="retroflexhook" output="ᶓ" />
+        </action>
+
+        <action id="ɔ">
+            <when state="none" output="ɔ" />
+            <when state="retroflexhook" output="ᶗ" />
+        </action>
+
+        <action id="p">
+            <when state="none" output="p" />
+            <when state="abovedot" output="ṗ" />
+            <when state="acute" output="ṕ" />
+            <when state="currency" output="₰" />
+            <when state="greek" output="π" />
+            <when state="hook" output="ƥ" />
+            <when state="middletilde" output="ᵱ" />
+            <when state="palatalhook" output="ᶈ" />
+            <when state="stroke" output="ᵽ" />
+            <when state="Multi_key" next="Multi_key_p" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_p" />
+            <when state="Multi_key_acute" output="ṕ" />
+            <when state="Multi_key_apostrophe" output="ṕ" />
+            <when state="Multi_key_period" output="ṗ" />
+        </action>
+        <action id="P">
+            <when state="none" output="P" />
+            <when state="abovedot" output="Ṗ" />
+            <when state="acute" output="Ṕ" />
+            <when state="currency" output="₧" />
+            <when state="greek" output="Π" />
+            <when state="hook" output="Ƥ" />
+            <when state="stroke" output="Ᵽ" />
+            <when state="Multi_key" next="Multi_key_P" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_P" />
+            <when state="Multi_key_P" output="¶" />
+            <when state="Multi_key_acute" output="Ṕ" />
+            <when state="Multi_key_apostrophe" output="Ṕ" />
+            <when state="Multi_key_period" output="Ṗ" />
+        </action>
+
+        <action id="q">
+            <when state="none" output="q" />
+            <when state="greek" output="χ" />
+            <when state="hook" output="ʠ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_q" />
+        </action>
+        <action id="Q">
+            <when state="none" output="Q" />
+            <when state="greek" output="Χ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_Q" />
+        </action>
+
+        <action id="r">
+            <when state="none" output="r" />
+            <when state="abovedot" output="ṙ" />
+            <when state="acute" output="ŕ" />
+            <when state="belowdot" output="ṛ" />
+            <when state="caron" output="ř" />
+            <when state="cedilla" output="ŗ" />
+            <when state="currency" output="₢" />
+            <when state="doublegrave" output="ȑ" />
+            <when state="fishhook" output="ɾ" />
+            <when state="greek" output="ρ" />
+            <when state="invertedbreve" output="ȓ" />
+            <when state="linebelow" output="ṟ" />
+            <when state="longleg" output="ɼ" />
+            <when state="middletilde" output="ᵲ" />
+            <when state="palatalhook" output="ᶉ" />
+            <when state="stroke" output="ɍ" />
+            <when state="tail" output="ɽ" />
+            <when state="belowdot_macron" output="ṝ" />
+            <when state="fishhook_middletilde" output="ᵳ" />
+            <when state="greek_stroke" output="ϼ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_r" />
+            <when state="Multi_key_C" output="₢" />
+            <when state="Multi_key_F" output="₣" />
+            <when state="Multi_key_O" output="®" />
+            <when state="Multi_key_acute" output="ŕ" />
+            <when state="Multi_key_apostrophe" output="ŕ" />
+            <when state="Multi_key_asciicircum_underscore" output="ʳ" />
+            <when state="Multi_key_c" output="ř" />
+            <when state="Multi_key_comma" output="ŗ" />
+            <when state="Multi_key_exclam" output="ṛ" />
+            <when state="Multi_key_macron_combining_belowdot" output="ṝ" />
+            <when state="Multi_key_macron_dead_belowdot" output="ṝ" />
+            <when state="Multi_key_macron_exclam" output="ṝ" />
+            <when state="Multi_key_o" output="®" />
+            <when state="Multi_key_period" output="ṙ" />
+            <when state="Multi_key_underscore_combining_belowdot" output="ṝ" />
+            <when state="Multi_key_underscore_dead_belowdot" output="ṝ" />
+            <when state="Multi_key_underscore_exclam" output="ṝ" />
+        </action>
+        <action id="ɍ">
+            <when state="none" output="ɍ" />
+            <when state="greek" output="ϼ" />
+        </action>
+        <action id="ɾ">
+            <when state="none" output="ɾ" />
+            <when state="middletilde" output="ᵳ" />
+        </action>
+        <action id="ρ">
+            <when state="none" output="ρ" />
+            <when state="stroke" output="ϼ" />
+            <when state="Multi_key_parenleft" output="ῥ" />
+            <when state="Multi_key_parenright" output="ῤ" />
+        </action>
+        <action id="ᵲ">
+            <when state="none" output="ᵲ" />
+            <when state="fishhook" output="ᵳ" />
+        </action>
+        <action id="ṛ">
+            <when state="none" output="ṛ" />
+            <when state="macron" output="ṝ" />
+            <when state="Multi_key_macron" output="ṝ" />
+            <when state="Multi_key_underscore" output="ṝ" />
+        </action>
+        <action id="R">
+            <when state="none" output="R" />
+            <when state="abovedot" output="Ṙ" />
+            <when state="acute" output="Ŕ" />
+            <when state="belowdot" output="Ṛ" />
+            <when state="caron" output="Ř" />
+            <when state="cedilla" output="Ŗ" />
+            <when state="currency" output="₨" />
+            <when state="doublegrave" output="Ȑ" />
+            <when state="greek" output="Ρ" />
+            <when state="invertedbreve" output="Ȓ" />
+            <when state="linebelow" output="Ṟ" />
+            <when state="stroke" output="Ɍ" />
+            <when state="belowdot_macron" output="Ṝ" />
+            <when state="Multi_key" next="Multi_key_R" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_R" />
+            <when state="Multi_key_O" output="®" />
+            <when state="Multi_key_acute" output="Ŕ" />
+            <when state="Multi_key_apostrophe" output="Ŕ" />
+            <when state="Multi_key_c" output="Ř" />
+            <when state="Multi_key_comma" output="Ŗ" />
+            <when state="Multi_key_exclam" output="Ṛ" />
+            <when state="Multi_key_macron_combining_belowdot" output="Ṝ" />
+            <when state="Multi_key_macron_dead_belowdot" output="Ṝ" />
+            <when state="Multi_key_macron_exclam" output="Ṝ" />
+            <when state="Multi_key_o" output="®" />
+            <when state="Multi_key_period" output="Ṙ" />
+            <when state="Multi_key_underscore_combining_belowdot" output="Ṝ" />
+            <when state="Multi_key_underscore_dead_belowdot" output="Ṝ" />
+            <when state="Multi_key_underscore_exclam" output="Ṝ" />
+        </action>
+        <action id="Ṛ">
+            <when state="none" output="Ṛ" />
+            <when state="macron" output="Ṝ" />
+            <when state="Multi_key_macron" output="Ṝ" />
+            <when state="Multi_key_underscore" output="Ṝ" />
+        </action>
+
+        <action id="ɜ">
+            <when state="none" output="ɜ" />
+            <when state="hook" output="ɝ" />
+            <when state="retroflexhook" output="ᶔ" />
+        </action>
+
+        <action id="s">
+            <when state="none" output="s" />
+            <when state="abovedot" output="ṡ" />
+            <when state="acute" output="ś" />
+            <when state="belowdot" output="ṣ" />
+            <when state="caron" output="š" />
+            <when state="cedilla" output="ş" />
+            <when state="circumflex" output="ŝ" />
+            <when state="commabelow" output="ș" />
+            <when state="currency" output="₪" />
+            <when state="greek" output="σ" />
+            <when state="hook" output="ʂ" />
+            <when state="middletilde" output="ᵴ" />
+            <when state="palatalhook" output="ᶊ" />
+            <when state="swashtail" output="ȿ" />
+            <when state="abovedot_acute" output="ṥ" />
+            <when state="abovedot_belowdot" output="ṩ" />
+            <when state="abovedot_caron" output="ṧ" />
+            <when state="Multi_key" next="Multi_key_s" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_s" />
+            <when state="Multi_key_R" output="₨" />
+            <when state="Multi_key_acute" output="ś" />
+            <when state="Multi_key_apostrophe" output="ś" />
+            <when state="Multi_key_asciicircum" output="ŝ" />
+            <when state="Multi_key_asciicircum_underscore" output="ˢ" />
+            <when state="Multi_key_c" output="š" />
+            <when state="Multi_key_comma" output="ş" />
+            <when state="Multi_key_exclam" output="ṣ" />
+            <when state="Multi_key_f" output="ſ" />
+            <when state="Multi_key_o" output="§" />
+            <when state="Multi_key_period" output="ṡ" />
+            <when state="Multi_key_period_acute" output="ṥ" />
+            <when state="Multi_key_period_apostrophe" output="ṥ" />
+            <when state="Multi_key_period_combining_acute" output="ṥ" />
+            <when state="Multi_key_period_combining_belowdot" output="ṩ" />
+            <when state="Multi_key_period_dead_acute" output="ṥ" />
+            <when state="Multi_key_period_dead_belowdot" output="ṩ" />
+            <when state="Multi_key_period_dead_caron" output="ṧ" />
+            <when state="Multi_key_period_exclam" output="ṩ" />
+            <when state="Multi_key_s" output="ß" />
+        </action>
+        <action id="ś">
+            <when state="none" output="ś" />
+            <when state="abovedot" output="ṥ" />
+            <when state="Multi_key_period" output="ṥ" />
+        </action>
+        <action id="š">
+            <when state="none" output="š" />
+            <when state="abovedot" output="ṧ" />
+            <when state="Multi_key_period" output="ṧ" />
+        </action>
+        <action id="ṡ">
+            <when state="none" output="ṡ" />
+            <when state="acute" output="ṥ" />
+            <when state="belowdot" output="ṩ" />
+            <when state="caron" output="ṧ" />
+        </action>
+        <action id="ṣ">
+            <when state="none" output="ṣ" />
+            <when state="abovedot" output="ṩ" />
+            <when state="Multi_key_period" output="ṩ" />
+        </action>
+        <action id="S">
+            <when state="none" output="S" />
+            <when state="abovedot" output="Ṡ" />
+            <when state="acute" output="Ś" />
+            <when state="belowdot" output="Ṣ" />
+            <when state="caron" output="Š" />
+            <when state="cedilla" output="Ş" />
+            <when state="circumflex" output="Ŝ" />
+            <when state="commabelow" output="Ș" />
+            <when state="currency" output="$" />
+            <when state="greek" output="Σ" />
+            <when state="abovedot_acute" output="Ṥ" />
+            <when state="abovedot_belowdot" output="Ṩ" />
+            <when state="abovedot_caron" output="Ṧ" />
+            <when state="Multi_key" next="Multi_key_S" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_S" />
+            <when state="Multi_key_acute" output="Ś" />
+            <when state="Multi_key_apostrophe" output="Ś" />
+            <when state="Multi_key_asciicircum" output="Ŝ" />
+            <when state="Multi_key_c" output="Š" />
+            <when state="Multi_key_comma" output="Ş" />
+            <when state="Multi_key_exclam" output="Ṣ" />
+            <when state="Multi_key_f" output="ſ" />
+            <when state="Multi_key_period" output="Ṡ" />
+            <when state="Multi_key_period_acute" output="Ṥ" />
+            <when state="Multi_key_period_apostrophe" output="Ṥ" />
+            <when state="Multi_key_period_combining_acute" output="Ṥ" />
+            <when state="Multi_key_period_combining_belowdot" output="Ṩ" />
+            <when state="Multi_key_period_dead_acute" output="Ṥ" />
+            <when state="Multi_key_period_dead_belowdot" output="Ṩ" />
+            <when state="Multi_key_period_dead_caron" output="Ṧ" />
+            <when state="Multi_key_period_exclam" output="Ṩ" />
+        </action>
+        <action id="Ś">
+            <when state="none" output="Ś" />
+            <when state="abovedot" output="Ṥ" />
+            <when state="Multi_key_period" output="Ṥ" />
+        </action>
+        <action id="Š">
+            <when state="none" output="Š" />
+            <when state="abovedot" output="Ṧ" />
+            <when state="Multi_key_period" output="Ṧ" />
+        </action>
+        <action id="Ṡ">
+            <when state="none" output="Ṡ" />
+            <when state="acute" output="Ṥ" />
+            <when state="belowdot" output="Ṩ" />
+            <when state="caron" output="Ṧ" />
+        </action>
+        <action id="Ṣ">
+            <when state="none" output="Ṣ" />
+            <when state="abovedot" output="Ṩ" />
+            <when state="Multi_key_period" output="Ṩ" />
+        </action>
+
+        <action id="ə">
+            <when state="none" output="ə" />
+            <when state="hook" output="ɚ" />
+            <when state="retroflexhook" output="ᶕ" />
+        </action>
+
+        <action id="ᴑ">
+            <when state="none" output="ᴑ" />
+            <when state="stroke" output="ᴓ" />
+        </action>
+
+        <action id="t">
+            <when state="none" output="t" />
+            <when state="abovedot" output="ṫ" />
+            <when state="belowdot" output="ṭ" />
+            <when state="caron" output="ť" />
+            <when state="cedilla" output="ţ" />
+            <when state="circumflexbelow" output="ṱ" />
+            <when state="commabelow" output="ț" />
+            <when state="curl" output="ȶ" />
+            <when state="currency" output="৳" />
+            <when state="diaeresis" output="ẗ" />
+            <when state="greek" output="τ" />
+            <when state="hook" output="ƭ" />
+            <when state="linebelow" output="ṯ" />
+            <when state="middletilde" output="ᵵ" />
+            <when state="palatalhook" output="ƫ" />
+            <when state="retroflexhook" output="ʈ" />
+            <when state="stroke" output="ŧ" />
+            <when state="Multi_key" next="Multi_key_t" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_t" />
+            <when state="Multi_key_P" output="₧" />
+            <when state="Multi_key_c" output="ť" />
+            <when state="Multi_key_comma" output="ţ" />
+            <when state="Multi_key_exclam" output="ṭ" />
+            <when state="Multi_key_period" output="ṫ" />
+            <when state="Multi_key_quotedbl" output="ẗ" />
+            <when state="Multi_key_slash" output="ŧ" />
+        </action>
+        <action id="T">
+            <when state="none" output="T" />
+            <when state="abovedot" output="Ṫ" />
+            <when state="belowdot" output="Ṭ" />
+            <when state="caron" output="Ť" />
+            <when state="cedilla" output="Ţ" />
+            <when state="circumflexbelow" output="Ṱ" />
+            <when state="commabelow" output="Ț" />
+            <when state="currency" output="₮" />
+            <when state="diagonalstroke" output="Ⱦ" />
+            <when state="greek" output="Τ" />
+            <when state="hook" output="Ƭ" />
+            <when state="linebelow" output="Ṯ" />
+            <when state="retroflexhook" output="Ʈ" />
+            <when state="stroke" output="Ŧ" />
+            <when state="Multi_key" next="Multi_key_T" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_T" />
+            <when state="Multi_key_A" output="@" />
+            <when state="Multi_key_c" output="Ť" />
+            <when state="Multi_key_comma" output="Ţ" />
+            <when state="Multi_key_exclam" output="Ṭ" />
+            <when state="Multi_key_period" output="Ṫ" />
+            <when state="Multi_key_slash" output="Ŧ" />
+        </action>
+
+        <action id="þ">
+            <when state="none" output="þ" />
+            <when state="currency" output="৲" />
+        </action>
+        <action id="Þ">
+            <when state="none" output="Þ" />
+            <when state="currency" output="৲" />
+        </action>
+
+        <action id="ɥ">
+            <when state="none" output="ɥ" />
+            <when state="fishhook" output="ʮ" />
+            <when state="fishhook_tail" output="ʯ" />
+        </action>
+        <action id="ʮ">
+            <when state="none" output="ʮ" />
+            <when state="tail" output="ʯ" />
+        </action>
+
+        <action id="ɯ">
+            <when state="none" output="ɯ" />
+            <when state="longleg" output="ɰ" />
+        </action>
+
+        <action id="ɹ">
+            <when state="none" output="ɹ" />
+            <when state="hook" output="ɻ" />
+            <when state="longleg" output="ɺ" />
+            <when state="Multi_key_asciicircum_underscore" output="ʴ" />
+        </action>
+
         <action id="u">
             <when state="none" output="u" />
             <when state="acute" output="ú" />
+            <when state="belowdot" output="ụ" />
+            <when state="breve" output="ŭ" />
+            <when state="caron" output="ǔ" />
+            <when state="circumflex" output="û" />
+            <when state="circumflexbelow" output="ṷ" />
+            <when state="currency" output="元" />
+            <when state="diaeresis" output="ü" />
+            <when state="diaresisbelow" output="ṳ" />
+            <when state="doubleacute" output="ű" />
+            <when state="doublegrave" output="ȕ" />
+            <when state="grave" output="ù" />
+            <when state="greek" output="υ" />
+            <when state="hook" output="ủ" />
+            <when state="horn" output="ư" />
+            <when state="invertedbreve" output="ȗ" />
+            <when state="macron" output="ū" />
+            <when state="ogonek" output="ų" />
+            <when state="retroflexhook" output="ᶙ" />
+            <when state="ringabove" output="ů" />
+            <when state="stroke" output="ʉ" />
+            <when state="tilde" output="ũ" />
+            <when state="tildebelow" output="ṵ" />
+            <when state="acute_diaeresis" output="ǘ" />
+            <when state="acute_horn" output="ứ" />
+            <when state="acute_tilde" output="ṹ" />
+            <when state="belowdot_horn" output="ự" />
+            <when state="caron_diaeresis" output="ǚ" />
+            <when state="diaeresis_grave" output="ǜ" />
+            <when state="diaeresis_macron" output="ǖ" />
+            <when state="grave_horn" output="ừ" />
+            <when state="greek_macron" output="ῡ" />
+            <when state="hook_horn" output="ử" />
+            <when state="horn_tilde" output="ữ" />
+            <when state="Multi_key" next="Multi_key_u" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_u" />
+            <when state="Multi_key_U" output="ŭ" />
+            <when state="Multi_key_acute" output="ú" />
+            <when state="Multi_key_acute_asciitilde" output="ṹ" />
+            <when state="Multi_key_acute_combining_tilde" output="ṹ" />
+            <when state="Multi_key_acute_dead_diaeresis" output="ǘ" />
+            <when state="Multi_key_acute_dead_horn" output="ứ" />
+            <when state="Multi_key_acute_dead_tilde" output="ṹ" />
+            <when state="Multi_key_acute_plus" output="ứ" />
+            <when state="Multi_key_acute_quotedbl" output="ǘ" />
+            <when state="Multi_key_apostrophe" output="ú" />
+            <when state="Multi_key_apostrophe_asciitilde" output="ṹ" />
+            <when state="Multi_key_apostrophe_combining_tilde" output="ṹ" />
+            <when state="Multi_key_apostrophe_dead_diaeresis" output="ǘ" />
+            <when state="Multi_key_apostrophe_dead_horn" output="ứ" />
+            <when state="Multi_key_apostrophe_dead_tilde" output="ṹ" />
+            <when state="Multi_key_apostrophe_plus" output="ứ" />
+            <when state="Multi_key_apostrophe_quotedbl" output="ǘ" />
+            <when state="Multi_key_asciicircum" output="û" />
+            <when state="Multi_key_asciitilde" output="ũ" />
+            <when state="Multi_key_asciitilde_dead_horn" output="ữ" />
+            <when state="Multi_key_asciitilde_plus" output="ữ" />
+            <when state="Multi_key_b" output="ŭ" />
+            <when state="Multi_key_c" output="ǔ" />
+            <when state="Multi_key_c_dead_diaeresis" output="ǚ" />
+            <when state="Multi_key_c_quotedbl" output="ǚ" />
+            <when state="Multi_key_equal" output="ű" />
+            <when state="Multi_key_exclam" output="ụ" />
+            <when state="Multi_key_exclam_dead_horn" output="ự" />
+            <when state="Multi_key_exclam_plus" output="ự" />
+            <when state="Multi_key_grave" output="ù" />
+            <when state="Multi_key_grave_dead_diaeresis" output="ǜ" />
+            <when state="Multi_key_grave_dead_horn" output="ừ" />
+            <when state="Multi_key_grave_plus" output="ừ" />
+            <when state="Multi_key_grave_quotedbl" output="ǜ" />
+            <when state="Multi_key_m" output="µ" />
+            <when state="Multi_key_macron" output="ū" />
+            <when state="Multi_key_macron_dead_diaeresis" output="ǖ" />
+            <when state="Multi_key_macron_quotedbl" output="ǖ" />
+            <when state="Multi_key_o" output="ů" />
+            <when state="Multi_key_plus" output="ư" />
+            <when state="Multi_key_question" output="ủ" />
+            <when state="Multi_key_question_dead_horn" output="ử" />
+            <when state="Multi_key_question_plus" output="ử" />
+            <when state="Multi_key_quotedbl" output="ü" />
+            <when state="Multi_key_quotedbl_dead_macron" output="ṻ" />
+            <when state="Multi_key_quotedbl_macron" output="ṻ" />
+            <when state="Multi_key_quotedbl_underscore" output="ṻ" />
+            <when state="Multi_key_semicolon" output="ų" />
+            <when state="Multi_key_u" output="ŭ" />
+            <when state="Multi_key_underscore" output="ū" />
+            <when state="Multi_key_underscore_dead_diaeresis" output="ǖ" />
+            <when state="Multi_key_underscore_quotedbl" output="ǖ" />
         </action>
+        <action id="ù">
+            <when state="none" output="ù" />
+            <when state="diaeresis" output="ǜ" />
+            <when state="horn" output="ừ" />
+        </action>
+        <action id="ú">
+            <when state="none" output="ú" />
+            <when state="diaeresis" output="ǘ" />
+            <when state="horn" output="ứ" />
+            <when state="tilde" output="ṹ" />
+        </action>
+        <action id="ü">
+            <when state="none" output="ü" />
+            <when state="acute" output="ǘ" />
+            <when state="caron" output="ǚ" />
+            <when state="grave" output="ǜ" />
+            <when state="macron" output="ǖ" />
+            <when state="Multi_key_acute" output="ǘ" />
+            <when state="Multi_key_apostrophe" output="ǘ" />
+            <when state="Multi_key_c" output="ǚ" />
+            <when state="Multi_key_grave" output="ǜ" />
+            <when state="Multi_key_macron" output="ǖ" />
+            <when state="Multi_key_underscore" output="ǖ" />
+        </action>
+        <action id="ũ">
+            <when state="none" output="ũ" />
+            <when state="acute" output="ṹ" />
+            <when state="horn" output="ữ" />
+            <when state="Multi_key_acute" output="ṹ" />
+            <when state="Multi_key_apostrophe" output="ṹ" />
+        </action>
+        <action id="ū">
+            <when state="none" output="ū" />
+            <when state="diaeresis" output="ǖ" />
+            <when state="greek" output="ῡ" />
+            <when state="Multi_key_quotedbl" output="ṻ" />
+        </action>
+        <action id="ư">
+            <when state="none" output="ư" />
+            <when state="acute" output="ứ" />
+            <when state="belowdot" output="ự" />
+            <when state="grave" output="ừ" />
+            <when state="hook" output="ử" />
+            <when state="tilde" output="ữ" />
+            <when state="Multi_key_acute" output="ứ" />
+            <when state="Multi_key_apostrophe" output="ứ" />
+            <when state="Multi_key_asciitilde" output="ữ" />
+            <when state="Multi_key_exclam" output="ự" />
+            <when state="Multi_key_grave" output="ừ" />
+            <when state="Multi_key_question" output="ử" />
+        </action>
+        <action id="ǔ">
+            <when state="none" output="ǔ" />
+            <when state="diaeresis" output="ǚ" />
+        </action>
+        <action id="υ">
+            <when state="none" output="υ" />
+            <when state="macron" output="ῡ" />
+            <when state="Multi_key_U" output="ῠ" />
+            <when state="Multi_key_acute" output="ύ" />
+            <when state="Multi_key_acute_U0313" output="ὔ" />
+            <when state="Multi_key_acute_U0314" output="ὕ" />
+            <when state="Multi_key_acute_dead_dasia" output="ὕ" />
+            <when state="Multi_key_acute_dead_diaeresis" output="ΰ" />
+            <when state="Multi_key_acute_dead_psili" output="ὔ" />
+            <when state="Multi_key_acute_parenleft" output="ὕ" />
+            <when state="Multi_key_acute_parenright" output="ὔ" />
+            <when state="Multi_key_acute_quotedbl" output="ΰ" />
+            <when state="Multi_key_apostrophe" output="ύ" />
+            <when state="Multi_key_apostrophe_U0313" output="ὔ" />
+            <when state="Multi_key_apostrophe_U0314" output="ὕ" />
+            <when state="Multi_key_apostrophe_dead_dasia" output="ὕ" />
+            <when state="Multi_key_apostrophe_dead_diaeresis" output="ΰ" />
+            <when state="Multi_key_apostrophe_dead_psili" output="ὔ" />
+            <when state="Multi_key_apostrophe_parenleft" output="ὕ" />
+            <when state="Multi_key_apostrophe_parenright" output="ὔ" />
+            <when state="Multi_key_apostrophe_quotedbl" output="ΰ" />
+            <when state="Multi_key_asciitilde" output="ῦ" />
+            <when state="Multi_key_asciitilde_U0313" output="ὖ" />
+            <when state="Multi_key_asciitilde_U0314" output="ὗ" />
+            <when state="Multi_key_asciitilde_dead_dasia" output="ὗ" />
+            <when state="Multi_key_asciitilde_dead_diaeresis" output="ῧ" />
+            <when state="Multi_key_asciitilde_dead_psili" output="ὖ" />
+            <when state="Multi_key_asciitilde_parenleft" output="ὗ" />
+            <when state="Multi_key_asciitilde_parenright" output="ὖ" />
+            <when state="Multi_key_asciitilde_quotedbl" output="ῧ" />
+            <when state="Multi_key_b" output="ῠ" />
+            <when state="Multi_key_grave" output="ὺ" />
+            <when state="Multi_key_grave_U0313" output="ὒ" />
+            <when state="Multi_key_grave_U0314" output="ὓ" />
+            <when state="Multi_key_grave_dead_dasia" output="ὓ" />
+            <when state="Multi_key_grave_dead_diaeresis" output="ῢ" />
+            <when state="Multi_key_grave_dead_psili" output="ὒ" />
+            <when state="Multi_key_grave_parenleft" output="ὓ" />
+            <when state="Multi_key_grave_parenright" output="ὒ" />
+            <when state="Multi_key_grave_quotedbl" output="ῢ" />
+            <when state="Multi_key_macron" output="ῡ" />
+            <when state="Multi_key_parenleft" output="ὑ" />
+            <when state="Multi_key_parenright" output="ὐ" />
+            <when state="Multi_key_quotedbl" output="ϋ" />
+            <when state="Multi_key_underscore" output="ῡ" />
+        </action>
+        <action id="ụ">
+            <when state="none" output="ụ" />
+            <when state="horn" output="ự" />
+        </action>
+        <action id="ủ">
+            <when state="none" output="ủ" />
+            <when state="horn" output="ử" />
+        </action>
+        <action id="U">
+            <when state="none" output="U" />
+            <when state="acute" output="Ú" />
+            <when state="belowdot" output="Ụ" />
+            <when state="breve" output="Ŭ" />
+            <when state="caron" output="Ǔ" />
+            <when state="circumflex" output="Û" />
+            <when state="circumflexbelow" output="Ṷ" />
+            <when state="currency" output="圓" />
+            <when state="diaeresis" output="Ü" />
+            <when state="diaresisbelow" output="Ṳ" />
+            <when state="doubleacute" output="Ű" />
+            <when state="doublegrave" output="Ȕ" />
+            <when state="grave" output="Ù" />
+            <when state="greek" output="Υ" />
+            <when state="hook" output="Ủ" />
+            <when state="horn" output="Ư" />
+            <when state="invertedbreve" output="Ȗ" />
+            <when state="macron" output="Ū" />
+            <when state="ogonek" output="Ų" />
+            <when state="ringabove" output="Ů" />
+            <when state="stroke" output="Ʉ" />
+            <when state="tilde" output="Ũ" />
+            <when state="tildebelow" output="Ṵ" />
+            <when state="acute_diaeresis" output="Ǘ" />
+            <when state="acute_horn" output="Ứ" />
+            <when state="acute_tilde" output="Ṹ" />
+            <when state="belowdot_horn" output="Ự" />
+            <when state="caron_diaeresis" output="Ǚ" />
+            <when state="diaeresis_grave" output="Ǜ" />
+            <when state="diaeresis_macron" output="Ǖ" />
+            <when state="grave_horn" output="Ừ" />
+            <when state="greek_hook" output="ϒ" />
+            <when state="greek_macron" output="Ῡ" />
+            <when state="hook_horn" output="Ử" />
+            <when state="horn_tilde" output="Ữ" />
+            <when state="Multi_key" next="Multi_key_U" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_U" />
+            <when state="Multi_key_U" output="Ŭ" />
+            <when state="Multi_key_acute" output="Ú" />
+            <when state="Multi_key_acute_asciitilde" output="Ṹ" />
+            <when state="Multi_key_acute_combining_tilde" output="Ṹ" />
+            <when state="Multi_key_acute_dead_diaeresis" output="Ǘ" />
+            <when state="Multi_key_acute_dead_horn" output="Ứ" />
+            <when state="Multi_key_acute_dead_tilde" output="Ṹ" />
+            <when state="Multi_key_acute_plus" output="Ứ" />
+            <when state="Multi_key_acute_quotedbl" output="Ǘ" />
+            <when state="Multi_key_apostrophe" output="Ú" />
+            <when state="Multi_key_apostrophe_asciitilde" output="Ṹ" />
+            <when state="Multi_key_apostrophe_combining_tilde" output="Ṹ" />
+            <when state="Multi_key_apostrophe_dead_diaeresis" output="Ǘ" />
+            <when state="Multi_key_apostrophe_dead_horn" output="Ứ" />
+            <when state="Multi_key_apostrophe_dead_tilde" output="Ṹ" />
+            <when state="Multi_key_apostrophe_plus" output="Ứ" />
+            <when state="Multi_key_apostrophe_quotedbl" output="Ǘ" />
+            <when state="Multi_key_asciicircum" output="Û" />
+            <when state="Multi_key_asciitilde" output="Ũ" />
+            <when state="Multi_key_asciitilde_dead_horn" output="Ữ" />
+            <when state="Multi_key_asciitilde_plus" output="Ữ" />
+            <when state="Multi_key_b" output="Ŭ" />
+            <when state="Multi_key_c" output="Ǔ" />
+            <when state="Multi_key_c_dead_diaeresis" output="Ǚ" />
+            <when state="Multi_key_c_quotedbl" output="Ǚ" />
+            <when state="Multi_key_equal" output="Ű" />
+            <when state="Multi_key_exclam" output="Ụ" />
+            <when state="Multi_key_exclam_dead_horn" output="Ự" />
+            <when state="Multi_key_exclam_plus" output="Ự" />
+            <when state="Multi_key_grave" output="Ù" />
+            <when state="Multi_key_grave_dead_diaeresis" output="Ǜ" />
+            <when state="Multi_key_grave_dead_horn" output="Ừ" />
+            <when state="Multi_key_grave_plus" output="Ừ" />
+            <when state="Multi_key_grave_quotedbl" output="Ǜ" />
+            <when state="Multi_key_macron" output="Ū" />
+            <when state="Multi_key_macron_dead_diaeresis" output="Ǖ" />
+            <when state="Multi_key_macron_quotedbl" output="Ǖ" />
+            <when state="Multi_key_o" output="Ů" />
+            <when state="Multi_key_plus" output="Ư" />
+            <when state="Multi_key_question" output="Ủ" />
+            <when state="Multi_key_question_dead_horn" output="Ử" />
+            <when state="Multi_key_question_plus" output="Ử" />
+            <when state="Multi_key_quotedbl" output="Ü" />
+            <when state="Multi_key_quotedbl_dead_macron" output="Ṻ" />
+            <when state="Multi_key_quotedbl_macron" output="Ṻ" />
+            <when state="Multi_key_quotedbl_underscore" output="Ṻ" />
+            <when state="Multi_key_semicolon" output="Ų" />
+            <when state="Multi_key_underscore" output="Ū" />
+            <when state="Multi_key_underscore_dead_diaeresis" output="Ǖ" />
+            <when state="Multi_key_underscore_quotedbl" output="Ǖ" />
+        </action>
+        <action id="Ù">
+            <when state="none" output="Ù" />
+            <when state="diaeresis" output="Ǜ" />
+            <when state="horn" output="Ừ" />
+        </action>
+        <action id="Ú">
+            <when state="none" output="Ú" />
+            <when state="diaeresis" output="Ǘ" />
+            <when state="horn" output="Ứ" />
+            <when state="tilde" output="Ṹ" />
+        </action>
+        <action id="Ü">
+            <when state="none" output="Ü" />
+            <when state="acute" output="Ǘ" />
+            <when state="caron" output="Ǚ" />
+            <when state="grave" output="Ǜ" />
+            <when state="macron" output="Ǖ" />
+            <when state="Multi_key_acute" output="Ǘ" />
+            <when state="Multi_key_apostrophe" output="Ǘ" />
+            <when state="Multi_key_c" output="Ǚ" />
+            <when state="Multi_key_grave" output="Ǜ" />
+            <when state="Multi_key_macron" output="Ǖ" />
+            <when state="Multi_key_underscore" output="Ǖ" />
+        </action>
+        <action id="Ũ">
+            <when state="none" output="Ũ" />
+            <when state="acute" output="Ṹ" />
+            <when state="horn" output="Ữ" />
+            <when state="Multi_key_acute" output="Ṹ" />
+            <when state="Multi_key_apostrophe" output="Ṹ" />
+        </action>
+        <action id="Ū">
+            <when state="none" output="Ū" />
+            <when state="diaeresis" output="Ǖ" />
+            <when state="greek" output="Ῡ" />
+            <when state="Multi_key_quotedbl" output="Ṻ" />
+        </action>
+        <action id="Ư">
+            <when state="none" output="Ư" />
+            <when state="acute" output="Ứ" />
+            <when state="belowdot" output="Ự" />
+            <when state="grave" output="Ừ" />
+            <when state="hook" output="Ử" />
+            <when state="tilde" output="Ữ" />
+            <when state="Multi_key_acute" output="Ứ" />
+            <when state="Multi_key_apostrophe" output="Ứ" />
+            <when state="Multi_key_asciitilde" output="Ữ" />
+            <when state="Multi_key_exclam" output="Ự" />
+            <when state="Multi_key_grave" output="Ừ" />
+            <when state="Multi_key_question" output="Ử" />
+        </action>
+        <action id="Ǔ">
+            <when state="none" output="Ǔ" />
+            <when state="diaeresis" output="Ǚ" />
+        </action>
+        <action id="Υ">
+            <when state="none" output="Υ" />
+            <when state="hook" output="ϒ" />
+            <when state="macron" output="Ῡ" />
+            <when state="Multi_key_U" output="Ῠ" />
+            <when state="Multi_key_acute" output="Ύ" />
+            <when state="Multi_key_acute_U0314" output="Ὕ" />
+            <when state="Multi_key_acute_dead_dasia" output="Ὕ" />
+            <when state="Multi_key_acute_parenleft" output="Ὕ" />
+            <when state="Multi_key_apostrophe" output="Ύ" />
+            <when state="Multi_key_apostrophe_U0314" output="Ὕ" />
+            <when state="Multi_key_apostrophe_dead_dasia" output="Ὕ" />
+            <when state="Multi_key_apostrophe_parenleft" output="Ὕ" />
+            <when state="Multi_key_asciitilde_U0314" output="Ὗ" />
+            <when state="Multi_key_asciitilde_dead_dasia" output="Ὗ" />
+            <when state="Multi_key_asciitilde_parenleft" output="Ὗ" />
+            <when state="Multi_key_b" output="Ῠ" />
+            <when state="Multi_key_grave" output="Ὺ" />
+            <when state="Multi_key_grave_U0314" output="Ὓ" />
+            <when state="Multi_key_grave_dead_dasia" output="Ὓ" />
+            <when state="Multi_key_grave_parenleft" output="Ὓ" />
+            <when state="Multi_key_macron" output="Ῡ" />
+            <when state="Multi_key_parenleft" output="Ὑ" />
+            <when state="Multi_key_quotedbl" output="Ϋ" />
+            <when state="Multi_key_underscore" output="Ῡ" />
+        </action>
+        <action id="Ụ">
+            <when state="none" output="Ụ" />
+            <when state="horn" output="Ự" />
+        </action>
+        <action id="Ủ">
+            <when state="none" output="Ủ" />
+            <when state="greek" output="ϒ" />
+            <when state="horn" output="Ử" />
+        </action>
+
+        <action id="ʊ">
+            <when state="none" output="ʊ" />
+            <when state="stroke" output="ᵿ" />
+        </action>
+
+        <action id="v">
+            <when state="none" output="v" />
+            <when state="belowdot" output="ṿ" />
+            <when state="hook" output="ʋ" />
+            <when state="palatalhook" output="ᶌ" />
+            <when state="tilde" output="ṽ" />
+            <when state="Multi_key" next="Multi_key_v" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_v" />
+            <when state="Multi_key_asciitilde" output="ṽ" />
+            <when state="Multi_key_exclam" output="ṿ" />
+            <when state="Multi_key_l" output="|" />
+        </action>
+        <action id="V">
+            <when state="none" output="V" />
+            <when state="belowdot" output="Ṿ" />
+            <when state="hook" output="Ʋ" />
+            <when state="tilde" output="Ṽ" />
+            <when state="Multi_key" next="Multi_key_V" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_V" />
+            <when state="Multi_key_L" output="|" />
+            <when state="Multi_key_asciitilde" output="Ṽ" />
+            <when state="Multi_key_exclam" output="Ṿ" />
+        </action>
+
         <action id="w">
             <when state="none" output="w" />
+            <when state="abovedot" output="ẇ" />
             <when state="acute" output="ẃ" />
+            <when state="belowdot" output="ẉ" />
+            <when state="circumflex" output="ŵ" />
+            <when state="currency" output="₩" />
+            <when state="diaeresis" output="ẅ" />
+            <when state="grave" output="ẁ" />
+            <when state="greek" output="ω" />
+            <when state="hook" output="ⱳ" />
+            <when state="ringabove" output="ẘ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_w" />
+            <when state="Multi_key_acute" output="ẃ" />
+            <when state="Multi_key_apostrophe" output="ẃ" />
+            <when state="Multi_key_asciicircum" output="ŵ" />
+            <when state="Multi_key_asciicircum_underscore" output="ʷ" />
+            <when state="Multi_key_exclam" output="ẉ" />
+            <when state="Multi_key_grave" output="ẁ" />
+            <when state="Multi_key_o" output="ẘ" />
+            <when state="Multi_key_period" output="ẇ" />
+            <when state="Multi_key_quotedbl" output="ẅ" />
         </action>
+        <action id="W">
+            <when state="none" output="W" />
+            <when state="abovedot" output="Ẇ" />
+            <when state="acute" output="Ẃ" />
+            <when state="belowdot" output="Ẉ" />
+            <when state="circumflex" output="Ŵ" />
+            <when state="currency" output="₩" />
+            <when state="diaeresis" output="Ẅ" />
+            <when state="grave" output="Ẁ" />
+            <when state="greek" output="Ω" />
+            <when state="hook" output="Ⱳ" />
+            <when state="Multi_key" next="Multi_key_W" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_W" />
+            <when state="Multi_key_acute" output="Ẃ" />
+            <when state="Multi_key_apostrophe" output="Ẃ" />
+            <when state="Multi_key_asciicircum" output="Ŵ" />
+            <when state="Multi_key_equal" output="₩" />
+            <when state="Multi_key_exclam" output="Ẉ" />
+            <when state="Multi_key_grave" output="Ẁ" />
+            <when state="Multi_key_period" output="Ẇ" />
+            <when state="Multi_key_quotedbl" output="Ẅ" />
+        </action>
+
+        <action id="x">
+            <when state="none" output="x" />
+            <when state="abovedot" output="ẋ" />
+            <when state="diaeresis" output="ẍ" />
+            <when state="greek" output="ξ" />
+            <when state="palatalhook" output="ᶍ" />
+            <when state="Multi_key" next="Multi_key_x" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_x" />
+            <when state="Multi_key_asciicircum_underscore" output="ˣ" />
+            <when state="Multi_key_o" output="¤" />
+            <when state="Multi_key_period" output="ẋ" />
+            <when state="Multi_key_quotedbl" output="ẍ" />
+            <when state="Multi_key_x" output="×" />
+        </action>
+        <action id="X">
+            <when state="none" output="X" />
+            <when state="abovedot" output="Ẋ" />
+            <when state="diaeresis" output="Ẍ" />
+            <when state="greek" output="Ξ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_X" />
+            <when state="Multi_key_period" output="Ẋ" />
+            <when state="Multi_key_quotedbl" output="Ẍ" />
+        </action>
+
         <action id="y">
             <when state="none" output="y" />
+            <when state="abovedot" output="ẏ" />
             <when state="acute" output="ý" />
+            <when state="belowdot" output="ỵ" />
+            <when state="circumflex" output="ŷ" />
+            <when state="currency" output="¥" />
+            <when state="diaeresis" output="ÿ" />
+            <when state="grave" output="ỳ" />
+            <when state="greek" output="ψ" />
+            <when state="hook" output="ỷ" />
+            <when state="macron" output="ȳ" />
+            <when state="ringabove" output="ẙ" />
+            <when state="stroke" output="ɏ" />
+            <when state="tilde" output="ỹ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_y" />
+            <when state="Multi_key_acute" output="ý" />
+            <when state="Multi_key_apostrophe" output="ý" />
+            <when state="Multi_key_asciicircum" output="ŷ" />
+            <when state="Multi_key_asciicircum_underscore" output="ʸ" />
+            <when state="Multi_key_asciitilde" output="ỹ" />
+            <when state="Multi_key_exclam" output="ỵ" />
+            <when state="Multi_key_grave" output="ỳ" />
+            <when state="Multi_key_macron" output="ȳ" />
+            <when state="Multi_key_o" output="ẙ" />
+            <when state="Multi_key_period" output="ẏ" />
+            <when state="Multi_key_question" output="ỷ" />
+            <when state="Multi_key_quotedbl" output="ÿ" />
+            <when state="Multi_key_underscore" output="ȳ" />
+        </action>
+        <action id="Y">
+            <when state="none" output="Y" />
+            <when state="abovedot" output="Ẏ" />
+            <when state="acute" output="Ý" />
+            <when state="belowdot" output="Ỵ" />
+            <when state="circumflex" output="Ŷ" />
+            <when state="currency" output="円" />
+            <when state="diaeresis" output="Ÿ" />
+            <when state="grave" output="Ỳ" />
+            <when state="greek" output="Ψ" />
+            <when state="hook" output="Ỷ" />
+            <when state="macron" output="Ȳ" />
+            <when state="stroke" output="Ɏ" />
+            <when state="tilde" output="Ỹ" />
+            <when state="Multi_key" next="Multi_key_Y" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_Y" />
+            <when state="Multi_key_acute" output="Ý" />
+            <when state="Multi_key_apostrophe" output="Ý" />
+            <when state="Multi_key_asciicircum" output="Ŷ" />
+            <when state="Multi_key_asciitilde" output="Ỹ" />
+            <when state="Multi_key_equal" output="¥" />
+            <when state="Multi_key_exclam" output="Ỵ" />
+            <when state="Multi_key_grave" output="Ỳ" />
+            <when state="Multi_key_macron" output="Ȳ" />
+            <when state="Multi_key_period" output="Ẏ" />
+            <when state="Multi_key_question" output="Ỷ" />
+            <when state="Multi_key_quotedbl" output="Ÿ" />
+            <when state="Multi_key_underscore" output="Ȳ" />
+        </action>
+
+        <action id="z">
+            <when state="none" output="z" />
+            <when state="abovedot" output="ż" />
+            <when state="acute" output="ź" />
+            <when state="belowdot" output="ẓ" />
+            <when state="caron" output="ž" />
+            <when state="circumflex" output="ẑ" />
+            <when state="curl" output="ʑ" />
+            <when state="greek" output="ζ" />
+            <when state="hook" output="ȥ" />
+            <when state="linebelow" output="ẕ" />
+            <when state="middletilde" output="ᵶ" />
+            <when state="palatalhook" output="ᶎ" />
+            <when state="retroflexhook" output="ʐ" />
+            <when state="stroke" output="ƶ" />
+            <when state="swashtail" output="ɀ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_z" />
+            <when state="Multi_key_acute" output="ź" />
+            <when state="Multi_key_apostrophe" output="ź" />
+            <when state="Multi_key_asciicircum" output="ẑ" />
+            <when state="Multi_key_c" output="ž" />
+            <when state="Multi_key_exclam" output="ẓ" />
+            <when state="Multi_key_period" output="ż" />
+            <when state="Multi_key_slash" output="ƶ" />
+        </action>
+        <action id="Z">
+            <when state="none" output="Z" />
+            <when state="abovedot" output="Ż" />
+            <when state="acute" output="Ź" />
+            <when state="belowdot" output="Ẓ" />
+            <when state="caron" output="Ž" />
+            <when state="circumflex" output="Ẑ" />
+            <when state="greek" output="Ζ" />
+            <when state="hook" output="Ȥ" />
+            <when state="linebelow" output="Ẕ" />
+            <when state="stroke" output="Ƶ" />
+            <when state="Multi_key_parenleft" next="Multi_key_parenleft_Z" />
+            <when state="Multi_key_acute" output="Ź" />
+            <when state="Multi_key_apostrophe" output="Ź" />
+            <when state="Multi_key_asciicircum" output="Ẑ" />
+            <when state="Multi_key_c" output="Ž" />
+            <when state="Multi_key_exclam" output="Ẓ" />
+            <when state="Multi_key_period" output="Ż" />
+            <when state="Multi_key_slash" output="Ƶ" />
         </action>
         <action id="dead_acute">
             <when state="none" next="acute" />
