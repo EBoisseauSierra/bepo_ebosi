@@ -27,7 +27,7 @@
     <keyMapSet id="ANSI">
         <!-- No modifier -->
         <keyMap index="0">
-            <key code="0" output="a" />
+            <key code="0" action="a" />
             <key code="1" output="u" />
             <key code="2" output="i" />
             <key code="3" output="e" />
@@ -134,7 +134,7 @@
             <key code="126" output="&#x001E;" />
         </keyMap>
         <keyMap index="3">
-            <key code="0" output="a" />
+            <key code="0" action="a" />
             <key code="1" output="u" />
             <key code="2" output="i" />
             <key code="3" output="e" />
