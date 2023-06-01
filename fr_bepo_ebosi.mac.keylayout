@@ -766,6 +766,200 @@
             <when state="Multi_key_underscore_period" output="ǡ" />
             <when state="Multi_key_underscore_quotedbl" output="ǟ" />
         </action>
+        <action id="à">
+            <when state="none" output="à" />
+            <when state="breve" output="ằ" />
+            <when state="circumflex" output="ầ" />
+        </action>
+        <action id="á">
+            <when state="none" output="á" />
+            <when state="breve" output="ắ" />
+            <when state="circumflex" output="ấ" />
+            <when state="ringabove" output="ǻ" />
+        </action>
+        <action id="â">
+            <when state="none" output="â" />
+            <when state="acute" output="ấ" />
+            <when state="belowdot" output="ậ" />
+            <when state="grave" output="ầ" />
+            <when state="hook" output="ẩ" />
+            <when state="tilde" output="ẫ" />
+            <when state="Multi_key_acute" output="ấ" />
+            <when state="Multi_key_apostrophe" output="ấ" />
+            <when state="Multi_key_asciitilde" output="ẫ" />
+            <when state="Multi_key_grave" output="ầ" />
+            <when state="Multi_key_question" output="ẩ" />
+        </action>
+        <action id="ã">
+            <when state="none" output="ã" />
+            <when state="breve" output="ẵ" />
+            <when state="circumflex" output="ẫ" />
+        </action>
+        <action id="ä">
+            <when state="none" output="ä" />
+            <when state="macron" output="ǟ" />
+            <when state="Multi_key_macron" output="ǟ" />
+            <when state="Multi_key_underscore" output="ǟ" />
+        </action>
+        <action id="å">
+            <when state="none" output="å" />
+            <when state="acute" output="ǻ" />
+            <when state="Multi_key_acute" output="ǻ" />
+            <when state="Multi_key_apostrophe" output="ǻ" />
+        </action>
+        <action id="ā">
+            <when state="none" output="ā" />
+            <when state="abovedot" output="ǡ" />
+            <when state="diaeresis" output="ǟ" />
+            <when state="greek" output="ᾱ" />
+        </action>
+        <action id="ă">
+            <when state="none" output="ă" />
+            <when state="acute" output="ắ" />
+            <when state="belowdot" output="ặ" />
+            <when state="grave" output="ằ" />
+            <when state="hook" output="ẳ" />
+            <when state="tilde" output="ẵ" />
+            <when state="Multi_key_acute" output="ắ" />
+            <when state="Multi_key_apostrophe" output="ắ" />
+            <when state="Multi_key_asciitilde" output="ẵ" />
+            <when state="Multi_key_grave" output="ằ" />
+            <when state="Multi_key_question" output="ẳ" />
+        </action>
+        <action id="ȧ">
+            <when state="none" output="ȧ" />
+            <when state="macron" output="ǡ" />
+            <when state="Multi_key_macron" output="ǡ" />
+            <when state="Multi_key_underscore" output="ǡ" />
+        </action>
+        <action id="α">
+            <when state="none" output="α" />
+            <when state="macron" output="ᾱ" />
+            <when state="Multi_key_Greek_iota" output="ᾳ" />
+            <when state="Multi_key_Greek_iota_U0313" output="ᾀ" />
+            <when state="Multi_key_Greek_iota_U0314" output="ᾁ" />
+            <when state="Multi_key_Greek_iota_U0342" output="ᾷ" />
+            <when state="Multi_key_Greek_iota_U0342_U0313" output="ᾆ" />
+            <when state="Multi_key_Greek_iota_U0342_U0314" output="ᾇ" />
+            <when state="Multi_key_Greek_iota_U0342_dead_dasia" output="ᾇ" />
+            <when state="Multi_key_Greek_iota_U0342_dead_psili" output="ᾆ" />
+            <when state="Multi_key_Greek_iota_U0342_parenleft" output="ᾇ" />
+            <when state="Multi_key_Greek_iota_U0342_parenright" output="ᾆ" />
+            <when state="Multi_key_Greek_iota_acute" output="ᾴ" />
+            <when state="Multi_key_Greek_iota_acute_U0313" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_acute_U0314" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_acute_dead_dasia" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_acute_dead_psili" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_acute_parenleft" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_acute_parenright" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_apostrophe" output="ᾴ" />
+            <when state="Multi_key_Greek_iota_apostrophe_U0313" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_apostrophe_U0314" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_apostrophe_dead_dasia" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_apostrophe_dead_psili" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_apostrophe_parenleft" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_apostrophe_parenright" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_asciitilde" output="ᾷ" />
+            <when state="Multi_key_Greek_iota_asciitilde_U0313" output="ᾆ" />
+            <when state="Multi_key_Greek_iota_asciitilde_U0314" output="ᾇ" />
+            <when state="Multi_key_Greek_iota_asciitilde_dead_dasia" output="ᾇ" />
+            <when state="Multi_key_Greek_iota_asciitilde_dead_psili" output="ᾆ" />
+            <when state="Multi_key_Greek_iota_asciitilde_parenleft" output="ᾇ" />
+            <when state="Multi_key_Greek_iota_asciitilde_parenright" output="ᾆ" />
+            <when state="Multi_key_Greek_iota_combining_acute" output="ᾴ" />
+            <when state="Multi_key_Greek_iota_combining_acute_U0313" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_combining_acute_U0314" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_combining_acute_dead_dasia" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_combining_acute_dead_psili" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_combining_acute_parenleft" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_combining_acute_parenright" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_combining_grave" output="ᾲ" />
+            <when state="Multi_key_Greek_iota_combining_grave_U0313" output="ᾂ" />
+            <when state="Multi_key_Greek_iota_combining_grave_U0314" output="ᾃ" />
+            <when state="Multi_key_Greek_iota_combining_grave_dead_dasia" output="ᾃ" />
+            <when state="Multi_key_Greek_iota_combining_grave_dead_psili" output="ᾂ" />
+            <when state="Multi_key_Greek_iota_combining_grave_parenleft" output="ᾃ" />
+            <when state="Multi_key_Greek_iota_combining_grave_parenright" output="ᾂ" />
+            <when state="Multi_key_Greek_iota_dead_acute" output="ᾴ" />
+            <when state="Multi_key_Greek_iota_dead_acute_U0313" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_dead_acute_U0314" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_dead_acute_dead_dasia" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_dead_acute_dead_psili" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_dead_acute_parenleft" output="ᾅ" />
+            <when state="Multi_key_Greek_iota_dead_acute_parenright" output="ᾄ" />
+            <when state="Multi_key_Greek_iota_dead_dasia" output="ᾁ" />
+            <when state="Multi_key_Greek_iota_dead_grave" output="ᾲ" />
+            <when state="Multi_key_Greek_iota_dead_grave_U0313" output="ᾂ" />
+            <when state="Multi_key_Greek_iota_dead_grave_U0314" output="ᾃ" />
+            <when state="Multi_key_Greek_iota_dead_grave_dead_dasia" output="ᾃ" />
+            <when state="Multi_key_Greek_iota_dead_grave_dead_psili" output="ᾂ" />
+            <when state="Multi_key_Greek_iota_dead_grave_parenleft" output="ᾃ" />
+            <when state="Multi_key_Greek_iota_dead_grave_parenright" output="ᾂ" />
+            <when state="Multi_key_Greek_iota_dead_psili" output="ᾀ" />
+            <when state="Multi_key_Greek_iota_dead_tilde" output="ᾷ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_U0313" output="ᾆ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_U0314" output="ᾇ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_dead_dasia" output="ᾇ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_dead_psili" output="ᾆ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_parenleft" output="ᾇ" />
+            <when state="Multi_key_Greek_iota_dead_tilde_parenright" output="ᾆ" />
+            <when state="Multi_key_Greek_iota_grave" output="ᾲ" />
+            <when state="Multi_key_Greek_iota_grave_U0313" output="ᾂ" />
+            <when state="Multi_key_Greek_iota_grave_U0314" output="ᾃ" />
+            <when state="Multi_key_Greek_iota_grave_dead_dasia" output="ᾃ" />
+            <when state="Multi_key_Greek_iota_grave_dead_psili" output="ᾂ" />
+            <when state="Multi_key_Greek_iota_grave_parenleft" output="ᾃ" />
+            <when state="Multi_key_Greek_iota_grave_parenright" output="ᾂ" />
+            <when state="Multi_key_Greek_iota_parenleft" output="ᾁ" />
+            <when state="Multi_key_Greek_iota_parenright" output="ᾀ" />
+            <when state="Multi_key_U" output="ᾰ" />
+            <when state="Multi_key_acute" output="ά" />
+            <when state="Multi_key_acute_U0313" output="ἄ" />
+            <when state="Multi_key_acute_U0314" output="ἅ" />
+            <when state="Multi_key_acute_dead_dasia" output="ἅ" />
+            <when state="Multi_key_acute_dead_psili" output="ἄ" />
+            <when state="Multi_key_acute_parenleft" output="ἅ" />
+            <when state="Multi_key_acute_parenright" output="ἄ" />
+            <when state="Multi_key_apostrophe" output="ά" />
+            <when state="Multi_key_apostrophe_U0313" output="ἄ" />
+            <when state="Multi_key_apostrophe_U0314" output="ἅ" />
+            <when state="Multi_key_apostrophe_dead_dasia" output="ἅ" />
+            <when state="Multi_key_apostrophe_dead_psili" output="ἄ" />
+            <when state="Multi_key_apostrophe_parenleft" output="ἅ" />
+            <when state="Multi_key_apostrophe_parenright" output="ἄ" />
+            <when state="Multi_key_asciitilde" output="ᾶ" />
+            <when state="Multi_key_asciitilde_U0313" output="ἆ" />
+            <when state="Multi_key_asciitilde_U0314" output="ἇ" />
+            <when state="Multi_key_asciitilde_dead_dasia" output="ἇ" />
+            <when state="Multi_key_asciitilde_dead_psili" output="ἆ" />
+            <when state="Multi_key_asciitilde_parenleft" output="ἇ" />
+            <when state="Multi_key_asciitilde_parenright" output="ἆ" />
+            <when state="Multi_key_b" output="ᾰ" />
+            <when state="Multi_key_grave" output="ὰ" />
+            <when state="Multi_key_grave_U0313" output="ἂ" />
+            <when state="Multi_key_grave_U0314" output="ἃ" />
+            <when state="Multi_key_grave_dead_dasia" output="ἃ" />
+            <when state="Multi_key_grave_dead_psili" output="ἂ" />
+            <when state="Multi_key_grave_parenleft" output="ἃ" />
+            <when state="Multi_key_grave_parenright" output="ἂ" />
+            <when state="Multi_key_macron" output="ᾱ" />
+            <when state="Multi_key_parenleft" output="ἁ" />
+            <when state="Multi_key_parenright" output="ἀ" />
+            <when state="Multi_key_underscore" output="ᾱ" />
+        </action>
+        <action id="ạ">
+            <when state="none" output="ạ" />
+            <when state="breve" output="ặ" />
+            <when state="circumflex" output="ậ" />
+            <when state="Multi_key_U" output="ặ" />
+            <when state="Multi_key_asciicircum" output="ậ" />
+            <when state="Multi_key_b" output="ặ" />
+        </action>
+        <action id="ả">
+            <when state="none" output="ả" />
+            <when state="breve" output="ẳ" />
+            <when state="circumflex" output="ẩ" />
+        </action>
         <action id="e">
             <when state="none" output="e" />
             <when state="acute" output="é" />
