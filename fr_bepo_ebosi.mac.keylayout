@@ -43,7 +43,7 @@
             <key code="13" action="é" />
             <key code="14" action="p" />
             <key code="15" action="o" />
-            <key code="16" output="circumflex" />
+            <key code="16" action="circumflex" />
             <key code="17" action="è" />
             <key code="18" output="&#x0022;" />
             <key code="19" output="&#x003C;" />
@@ -150,7 +150,7 @@
             <key code="13" action="é" />
             <key code="14" action="p" />
             <key code="15" action="o" />
-            <key code="16" output="circumflex" />
+            <key code="16" action="circumflex" />
             <key code="17" action="è" />
             <key code="18" output="&#x0022;" />
             <key code="19" output="&#x003C;" />
@@ -3772,6 +3772,9 @@
         </action>
         <action id="acute">
             <when state="none" next="acute" />
+        </action>
+        <action id="circumflex">
+            <when state="none" next="circumflex" />
         </action>
     </actions>
     <terminators>
