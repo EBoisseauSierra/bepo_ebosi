@@ -8,6 +8,7 @@ LAYOUT_NAME="bepo_ebosi"
 LAYOUT_DESC="French (Bepo, ergonomic, Dvorak way, ebosi, Etienne Boisseau-Sierra)"
 LAYOUT_DEF_FILE="/usr/share/X11/xkb/symbols/fr"
 LAYOUT_REF_FILE="/usr/share/X11/xkb/rules/evdev.xml"
+LAYOUT_DEFINITION_FILE_MACOS="$HOME/Library/Keyboard Layouts/fr_bepo_ebosi.mac.keylayout"
 
 usage() {
     echo "Install and load bepo_ebosi keyboard layout."
@@ -60,6 +61,9 @@ while [[ -n $1 ]]; do
         -r | --reference-path)  shift
                                 LAYOUT_REF_FILE=$1
                                 ;;
+        -p | --path)            shift
+                                LAYOUT_DEFINITION_FILE_MACOS=$1
+                                ;;
         -i | --install-only)    INSTALL_ONLY=true
                                 ;;
         -h | --help)            usage
@@ -74,11 +78,11 @@ done
 
 # Check that install can excecute
 
-if ! type xmlstarlet > /dev/null; then
-    # Test whether `xmlstarlet` is installed
-    echo "Error: `xmlstarlet` not installed."
-    exit 1
-fi
+if [ "$(uname)" == "Darwin" ]; then
+    # Install on macOS
+    cp -i fr_bepo_ebosi.mac.keylayout "$LAYOUT_DEFINITION_FILE_MACOS"
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+    # Install on Linux distro
 
 for FILE in $LAYOUT_DESC_FILE $LAYOUT_REF_FILE
 do
