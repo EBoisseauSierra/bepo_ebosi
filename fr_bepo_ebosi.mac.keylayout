@@ -468,7 +468,7 @@
             <key code="50" output="/" />
             <key code="11" output="~" />
             <key code="12" output="|" />
-            <key code="13" action="dead_acute" />
+            <key code="13" action="acute" />
             <key code="14" output="&#x0026;" />
             <key code="15" output="œ" />
             <key code="16" output="¡" />
@@ -3770,7 +3770,7 @@
             <when state="Multi_key_period" output="Ż" />
             <when state="Multi_key_slash" output="Ƶ" />
         </action>
-        <action id="dead_acute">
+        <action id="acute">
             <when state="none" next="acute" />
         </action>
     </actions>
