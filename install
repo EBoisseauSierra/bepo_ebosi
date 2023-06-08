@@ -5,12 +5,31 @@ PROGNAME=$(basename $0)
 # Define default parameters
 INSTALL_ONLY=false
 LAYOUT_NAME="bepo_ebosi"
-LAYOUT_DESC="French (Bepo, ergonomic, Dvorak way, ebosi, Etienne Boisseau-Sierra)"
-LAYOUT_DEF_FILE="/usr/share/X11/xkb/symbols/fr"
-LAYOUT_REF_FILE="/usr/share/X11/xkb/rules/evdev.xml"
+LAYOUT_DESCRIPTION="French (Bepo, ergonomic, Dvorak way, ebosi, Etienne Boisseau-Sierra)"
+LAYOUT_DEFINITION_FILE_LINUX="/usr/share/X11/xkb/symbols/fr"
+LAYOUT_DECLARATION_FILE_LINUX="/usr/share/X11/xkb/rules/evdev.xml"
 LAYOUT_DEFINITION_FILE_MACOS="$HOME/Library/Keyboard Layouts/fr_bepo_ebosi.mac.keylayout"
 
 usage() {
+    if [ "$(uname)" == "Darwin" ]; then
+        usage_mac
+    elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+        usage_linux
+    fi
+}
+
+usage_mac() {
+    echo "Install and load bepo_ebosi keyboard layout."
+    echo
+    echo "usage: $PROGNAME [-p path]"
+    echo
+    echo "Options:"
+    echo "  -h, --help            Show this help text"
+    echo "  -p, --path            Set the install location"
+    echo "                            default: '$LAYOUT_DEFINITION_FILE_MACOS'"
+}
+
+usage_linux() {
     echo "Install and load bepo_ebosi keyboard layout."
     echo
     echo "usage: $PROGNAME [-n name] [-d description] [-s path] [-r path] [-i] [-h]"
@@ -18,13 +37,13 @@ usage() {
     echo "Options:"
     echo "  -h, --help            Show this help text"
     echo "  -n, --name            Set the layout name"
-    echo "                            default: 'bepo_ebosi'"
+    echo "                            default: '$LAYOUT_NAME'"
     echo "  -d, --description     Set the layout description"
-    echo "                            default: 'French (Bepo, ergonomic, Dvorak way, ebosi, Etienne Boisseau-Sierra)'"
+    echo "                            default: '$LAYOUT_DESCRIPTION'"
     echo "  -s, --symbols-path    Set the path of the layout definition file"
-    echo "                            default: '/usr/share/X11/xkb/symbols/fr'"
+    echo "                            default: '$LAYOUT_DEFINITION_FILE_LINUX'"
     echo "  -r, --reference-path  Set path of the layout reference file"
-    echo "                            default: '/usr/share/X11/xkb/rules/evdev.xml'"
+    echo "                            default: '$LAYOUT_DECLARATION_FILE_LINUX'"
     echo "  -i, --install-only    Install the layout only (but does not load it)"
 }
 
@@ -32,17 +51,17 @@ add_new_definition(){
     # Append custom bépo layout definition to the list of definitions,
     # while adapting the name and description on the fly
 
-    cat fr_bepo_ebosi | sed "s/layout_name_placeholder/$LAYOUT_NAME/g;s/layout_description_placeholder/$LAYOUT_DESC/g" >> $LAYOUT_DEF_FILE
+    cat fr_bepo_ebosi | sed "s/layout_name_placeholder/$LAYOUT_NAME/g;s/LAYOUT_DESCRIPTIONription_placeholder/$LAYOUT_DESCRIPTION/g" >> $LAYOUT_DEFINITION_FILE_LINUX
 }
 
 reference_new_definition(){
     # Add a reference to our new definition to the list of French ('fr') layouts
 
-    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList" --type elem -n newvariant $LAYOUT_REF_FILE
-        xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant" --type elem -n configItem $LAYOUT_REF_FILE
-    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant/configItem" --type elem -n name -v "$LAYOUT_NAME" $LAYOUT_REF_FILE
-    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant/configItem" --type elem -n description -v "$LAYOUT_DESC" $LAYOUT_REF_FILE
-    xmlstarlet ed -L --rename "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant" -v variant $LAYOUT_REF_FILE
+    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList" --type elem -n newvariant $LAYOUT_DECLARATION_FILE_LINUX
+    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant" --type elem -n configItem $LAYOUT_DECLARATION_FILE_LINUX
+    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant/configItem" --type elem -n name -v "$LAYOUT_NAME" $LAYOUT_DECLARATION_FILE_LINUX
+    xmlstarlet ed -L --subnode "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant/configItem" --type elem -n description -v "$LAYOUT_DESCRIPTION" $LAYOUT_DECLARATION_FILE_LINUX
+    xmlstarlet ed -L --rename "xkbConfigRegistry/layoutList/layout[configItem[name[text()='fr']]]/variantList/newvariant" -v variant $LAYOUT_DECLARATION_FILE_LINUX
 }
 
 # Parse arguments
@@ -53,13 +72,13 @@ while [[ -n $1 ]]; do
                                 LAYOUT_NAME=$1
                                 ;;
         -d | --description)     shift
-                                LAYOUT_DESC=$1
+                                LAYOUT_DESCRIPTION=$1
                                 ;;
         -s | --symbols-path)    shift
-                                LAYOUT_DEF_FILE=$1
+                                LAYOUT_DEFINITION_FILE_LINUX=$1
                                 ;;
         -r | --reference-path)  shift
-                                LAYOUT_REF_FILE=$1
+                                LAYOUT_DECLARATION_FILE_LINUX=$1
                                 ;;
         -p | --path)            shift
                                 LAYOUT_DEFINITION_FILE_MACOS=$1
@@ -76,7 +95,6 @@ while [[ -n $1 ]]; do
     shift
 done
 
-# Check that install can excecute
 
 if [ "$(uname)" == "Darwin" ]; then
     # Install on macOS
@@ -84,25 +102,32 @@ if [ "$(uname)" == "Darwin" ]; then
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     # Install on Linux distro
 
-for FILE in $LAYOUT_DESC_FILE $LAYOUT_REF_FILE
-do
-    if ! [ -w $FILE ]; then
-        # Test whether user has write access on config files
-        echo "Error: Permission denied on $FILE"
-        echo "Try running as root."
+    # Check that install can excecute
+    if ! type xmlstarlet > /dev/null; then
+        # Test whether `xmlstarlet` is installed
+        echo "Error: `xmlstarlet` not installed."
         exit 1
     fi
-done
 
-# Install layout
+    for FILE in $LAYOUT_DESCRIPTION_FILE $LAYOUT_DECLARATION_FILE_LINUX
+    do
+        if ! [ -w $FILE ]; then
+            # Test whether user has write access on config files
+            echo "Error: Permission denied on $FILE"
+            echo "Try running as root."
+            exit 1
+        fi
+    done
 
-# Add our new definition to the system
-add_new_definition
+    # Install layout
+    # Add our new definition to the system
+    add_new_definition
 
-# Make the new definition available to the system
-reference_new_definition
+    # Make the new definition available to the system
+    reference_new_definition
 
-if [ "$INSTALL_ONLY" = false ] ; then
-    # Load the new keyboard layout
-    setxkbmap -layout fr -variant $LAYOUT_NAME
+    if [ "$INSTALL_ONLY" = false ] ; then
+        # Load the new keyboard layout
+        setxkbmap -layout fr -variant $LAYOUT_NAME
+    fi
 fi
