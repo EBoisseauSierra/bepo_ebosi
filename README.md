@@ -13,8 +13,8 @@ The install script requires [`xmlstarlet`](https://sourceforge.net/projects/xmls
 
 ## Install
 
-To install and load the new keyboard layout, simply run `./install`. To get more details about usage and options, run
+To install and load the new keyboard layout, simply run `./install-layout`. To get more details about usage and options, run
 
 ```
-./install -h
+./install-layout -h
 ```
